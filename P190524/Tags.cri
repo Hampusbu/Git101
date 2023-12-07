@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="Tags" TargetProperty="SysMan_Connection" Source="Controller1.DataItem1" />
+        <Item Target="Tags" TargetProperty="AllOk" Source="Controller1.DataItem246" />
+        <Item Target="Tags" TargetProperty="EStopActive" Source="Controller1.DataItem3" />
+        <Item Target="Tags" TargetProperty="UnknownPosition" Source="Controller1.DataItem4" />
+        <Item Target="Tags" TargetProperty="NotInSystem" Source="Controller1.DataItem5" />
+        <Item Target="Tags" TargetProperty="CanServerSafeState" Source="Controller1.DataItem6" />
+        <Item Target="Tags" TargetProperty="GroundFault" Source="Controller1.DataItem7" />
+        <Item Target="Tags" TargetProperty="OperationMode" Source="Controller1.DataItem8" />
+        <Item Target="Tags" TargetProperty="PLC_RequestScreenSaver" Source="Controller1.DataItem31" />
+        <Item Target="Tags" TargetProperty="StatusString" Source="Controller1.DataItem10" />
+        <Item Target="Tags" TargetProperty="StatusValue" Source="Controller1.DataItem11" />
+        <Item Target="Tags" TargetProperty="StopString" Source="Controller1.DataItem12" />
+        <Item Target="Tags" TargetProperty="StopValue" Source="Controller1.DataItem13" />
+        <Item Target="Tags" TargetProperty="BB_Trigger" Source="Controller1.DataItem14" />
+        <Item Target="Tags" TargetProperty="BatteryVoltage" Source="Controller1.DataItem15" />
+        <Item Target="Tags" TargetProperty="WlanSignalStrength" Source="Controller1.DataItem16" />
+        <Item Target="Tags" TargetProperty="WlanBitRate" Source="Controller1.DataItem17" />
+        <Item Target="Tags" TargetProperty="WlanChannel" Source="Controller1.DataItem18" />
+        <Item Target="Tags" TargetProperty="SegmentCurrent" Source="Controller1.DataItem19" />
+        <Item Target="Tags" TargetProperty="SegmentEndDistance" Source="Controller1.DataItem20" />
+        <Item Target="Tags" TargetProperty="BarrelPresent" Source="Controller1.DataItem21" />
+        <Item Target="Tags" TargetProperty="Lift1Height" Source="Controller1.DataItem23" />
+        <Item Target="Tags" TargetProperty="LiftHeightTarget" Source="Controller1.DataItem24" />
+        <Item Target="Tags" TargetProperty="CurrentSetAngle" Source="Controller1.DataItem25" />
+        <Item Target="Tags" TargetProperty="CurrentSetSpeed" Source="Controller1.DataItem26" />
+        <Item Target="Tags" TargetProperty="ActualAngle" Source="Controller1.DataItem27" />
+        <Item Target="Tags" TargetProperty="ActualSpeed" Source="Controller1.DataItem28" />
+        <Item Target="Tags" TargetProperty="CompilationID1" Source="Controller1.DataItem9" />
+        <Item Target="Tags" TargetProperty="CompilationID2" Source="Controller1.DataItem29" />
+        <Item Target="Tags" TargetProperty="TimeStamp" Source="Controller1.DataItem30" />
+        <Item Target="Tags" TargetProperty="CurrentOrderMode" Source="Controller1.DataItem33" />
+        <Item Target="Tags" TargetProperty="SetOrderMode" Source="Controller1.DataItem34" />
+        <Item Target="Tags" TargetProperty="LocalOrderDestPoint" Source="Controller1.DataItem35" />
+        <Item Target="Tags" TargetProperty="LocalOrderOpCode" Source="Controller1.DataItem36" />
+        <Item Target="Tags" TargetProperty="LocalOrderOpParam1" Source="Controller1.DataItem37" />
+        <Item Target="Tags" TargetProperty="LocalOrderOpParam2" Source="Controller1.DataItem38" />
+        <Item Target="Tags" TargetProperty="LocalOrderStart" Source="Controller1.DataItem39" />
+        <Item Target="Tags" TargetProperty="LocalOrderCancel" Source="Controller1.DataItem40" />
+        <Item Target="Tags" TargetProperty="CurrentPoint" Source="Controller1.DataItem41" />
+        <Item Target="Tags" TargetProperty="LaserAngle" Source="Controller1.DataItem43" />
+        <Item Target="Tags" TargetProperty="LaserXOffset" Source="Controller1.DataItem42" />
+        <Item Target="Tags" TargetProperty="LaserYOffset" Source="Controller1.DataItem44" />
+        <Item Target="Tags" TargetProperty="LaserCalibrateOn" Source="Controller1.DataItem45" />
+        <Item Target="Tags" TargetProperty="SpeedCalibrateOn" Source="Controller1.DataItem46" />
+        <Item Target="Tags" TargetProperty="SpeedStopTolerance" Source="Controller1.DataItem47" />
+        <Item Target="Tags" TargetProperty="MaxSpeed" Source="Controller1.DataItem49" />
+        <Item Target="Tags" TargetProperty="EncoderScalingDrive1" Source="Controller1.DataItem50" />
+        <Item Target="Tags" TargetProperty="EncoderScalingSteer1" Source="Controller1.DataItem51" />
+        <Item Target="Tags" TargetProperty="EncoderScalingLift1" Source="Controller1.DataItem52" />
+        <Item Target="Tags" TargetProperty="EncoderCalibrateOn" Source="Controller1.DataItem57" />
+        <Item Target="Tags" TargetProperty="PariaMode" Source="Controller1.DataItem54" />
+        <Item Target="Tags" TargetProperty="SoftwareVersion" Source="Controller1.DataItem55" />
+        <Item Target="Tags" TargetProperty="SilenceHorn" Source="Controller1.DataItem56" />
+        <Item Target="Tags" TargetProperty="UpdateValuesFromCVC" Source="Controller1.DataItem32" />
+        <Item Target="Tags" TargetProperty="FrontScannerStopField" Source="Controller1.DataItem110" />
+        <Item Target="Tags" TargetProperty="RearScannerStopField" Source="Controller1.DataItem58" />
+        <Item Target="Tags" TargetProperty="DigitalInput1" Source="Controller1.DataItem60" />
+        <Item Target="Tags" TargetProperty="DigitalInput2" Source="Controller1.DataItem61" />
+        <Item Target="Tags" TargetProperty="DigitalInput3" Source="Controller1.DataItem62" />
+        <Item Target="Tags" TargetProperty="DigitalInput4" Source="Controller1.DataItem63" />
+        <Item Target="Tags" TargetProperty="DigitalInput5" Source="Controller1.DataItem64" />
+        <Item Target="Tags" TargetProperty="DigitalInput6" Source="Controller1.DataItem65" />
+        <Item Target="Tags" TargetProperty="DigitalInput7" Source="Controller1.DataItem66" />
+        <Item Target="Tags" TargetProperty="DigitalInput8" Source="Controller1.DataItem67" />
+        <Item Target="Tags" TargetProperty="DigitalInput9" Source="Controller1.DataItem68" />
+        <Item Target="Tags" TargetProperty="DigitalInput10" Source="Controller1.DataItem69" />
+        <Item Target="Tags" TargetProperty="DigitalOutput1" Source="Controller1.DataItem70" />
+        <Item Target="Tags" TargetProperty="DigitalOutput2" Source="Controller1.DataItem71" />
+        <Item Target="Tags" TargetProperty="DigitalOutput3" Source="Controller1.DataItem72" />
+        <Item Target="Tags" TargetProperty="DigitalOutput4" Source="Controller1.DataItem73" />
+        <Item Target="Tags" TargetProperty="DigitalOutput5" Source="Controller1.DataItem74" />
+        <Item Target="Tags" TargetProperty="DigitalOutput6" Source="Controller1.DataItem75" />
+        <Item Target="Tags" TargetProperty="DigitalOutput7" Source="Controller1.DataItem76" />
+        <Item Target="Tags" TargetProperty="DigitalOutput8" Source="Controller1.DataItem77" />
+        <Item Target="Tags" TargetProperty="DigitalOutput9" Source="Controller1.DataItem78" />
+        <Item Target="Tags" TargetProperty="DigitalOutput10" Source="Controller1.DataItem79" />
+        <Item Target="Tags" TargetProperty="OutputChanger" Source="Controller1.DataItem80" />
+        <Item Target="Tags" TargetProperty="IOForceMode" Source="Controller1.DataItem81" />
+        <Item Target="Tags" TargetProperty="DigitalInput11" Source="Controller1.DataItem82" />
+        <Item Target="Tags" TargetProperty="DigitalInput12" Source="Controller1.DataItem83" />
+        <Item Target="Tags" TargetProperty="DigitalInput13" Source="Controller1.DataItem84" />
+        <Item Target="Tags" TargetProperty="DigitalInput14" Source="Controller1.DataItem85" />
+        <Item Target="Tags" TargetProperty="DigitalInput15" Source="Controller1.DataItem86" />
+        <Item Target="Tags" TargetProperty="DigitalInput16" Source="Controller1.DataItem87" />
+        <Item Target="Tags" TargetProperty="DigitalInput17" Source="Controller1.DataItem88" />
+        <Item Target="Tags" TargetProperty="DigitalInput18" Source="Controller1.DataItem89" />
+        <Item Target="Tags" TargetProperty="DigitalInput19" Source="Controller1.DataItem90" />
+        <Item Target="Tags" TargetProperty="DigitalInput20" Source="Controller1.DataItem91" />
+        <Item Target="Tags" TargetProperty="DigitalOutput11" Source="Controller1.DataItem92" />
+        <Item Target="Tags" TargetProperty="DigitalOutput12" Source="Controller1.DataItem93" />
+        <Item Target="Tags" TargetProperty="DigitalOutput13" Source="Controller1.DataItem94" />
+        <Item Target="Tags" TargetProperty="DigitalOutput14" Source="Controller1.DataItem95" />
+        <Item Target="Tags" TargetProperty="DigitalOutput15" Source="Controller1.DataItem96" />
+        <Item Target="Tags" TargetProperty="DigitalOutput16" Source="Controller1.DataItem97" />
+        <Item Target="Tags" TargetProperty="DigitalOutput17" Source="Controller1.DataItem98" />
+        <Item Target="Tags" TargetProperty="DigitalOutput18" Source="Controller1.DataItem99" />
+        <Item Target="Tags" TargetProperty="DigitalOutput19" Source="Controller1.DataItem100" />
+        <Item Target="Tags" TargetProperty="DigitalOutput20" Source="Controller1.DataItem101" />
+        <Item Target="Tags" TargetProperty="InputChanger" Source="Controller1.DataItem102" />
+        <Item Target="Tags" TargetProperty="CanErrorNode" Source="Controller1.DataItem103" />
+        <Item Target="Tags" TargetProperty="CanErrorCode" Source="Controller1.DataItem104" />
+        <Item Target="Tags" TargetProperty="WIFI_Connection" Source="Controller1.DataItem2" />
+        <Item Target="Tags" TargetProperty="DroppedLoadError" Source="Controller1.DataItem105" />
+        <Item Target="Tags" TargetProperty="CancelOrder" Source="Controller1.DataItem106" />
+        <Item Target="Tags" TargetProperty="NavStopField" Source="Controller1.DataItem53" />
+        <Item Target="Tags" TargetProperty="SteerEncoderOffset1" Source="Controller1.DataItem107" />
+        <Item Target="Tags" TargetProperty="LinePressure" Source="Controller1.DataItem59" />
+        <Item Target="Tags" TargetProperty="PumpSpeed" Source="Controller1.DataItem108" />
+        <Item Target="Tags" TargetProperty="SafetyLaserBankSelect" Source="Controller1.DataItem113" />
+        <Item Target="Tags" TargetProperty="SafetyLaserBankIndicator" Source="Controller1.DataItem112" />
+        <Item Target="Tags" TargetProperty="SafetyLaserForceEnableBankSelect" Source="Controller1.DataItem111" />
+        <Item Target="Tags" TargetProperty="GlobalX" Source="Controller1.DataItem115" />
+        <Item Target="Tags" TargetProperty="GlobalY" Source="Controller1.DataItem116" />
+        <Item Target="Tags" TargetProperty="FrontScannerWarningField" Source="Controller1.DataItem117" />
+        <Item Target="Tags" TargetProperty="RearScannerWarningField" Source="Controller1.DataItem119" />
+        <Item Target="Tags" TargetProperty="NavWarningField" Source="Controller1.DataItem109" />
+        <Item Target="Tags" TargetProperty="SetZeroAngle" Source="Controller1.DataItem121" />
+        <Item Target="Tags" TargetProperty="DigitalInput21" Source="Controller1.DataItem122" />
+        <Item Target="Tags" TargetProperty="DigitalInput22" Source="Controller1.DataItem120" />
+        <Item Target="Tags" TargetProperty="DigitalInput23" Source="Controller1.DataItem123" />
+        <Item Target="Tags" TargetProperty="DigitalInput24" Source="Controller1.DataItem124" />
+        <Item Target="Tags" TargetProperty="DigitalInput25" Source="Controller1.DataItem125" />
+        <Item Target="Tags" TargetProperty="DigitalInput26" Source="Controller1.DataItem126" />
+        <Item Target="Tags" TargetProperty="DigitalInput27" Source="Controller1.DataItem127" />
+        <Item Target="Tags" TargetProperty="DigitalInput28" Source="Controller1.DataItem128" />
+        <Item Target="Tags" TargetProperty="DigitalInput29" Source="Controller1.DataItem129" />
+        <Item Target="Tags" TargetProperty="DigitalInput30" Source="Controller1.DataItem130" />
+        <Item Target="Tags" TargetProperty="DigitalInput31" Source="Controller1.DataItem131" />
+        <Item Target="Tags" TargetProperty="DigitalInput32" Source="Controller1.DataItem132" />
+        <Item Target="Tags" TargetProperty="ManualMode" Source="Controller1.DataItem134" />
+        <Item Target="Tags" TargetProperty="RunningAvg" Source="Controller1.DataItem138" />
+        <Item Target="Tags" TargetProperty="I_Instant" Source="Controller1.DataItem139" />
+        <Item Target="Tags" TargetProperty="Hr1" Source="Controller1.DataItem140" />
+        <Item Target="Tags" TargetProperty="Hr2" Source="Controller1.DataItem141" />
+        <Item Target="Tags" TargetProperty="Hr3" Source="Controller1.DataItem142" />
+        <Item Target="Tags" TargetProperty="Hr4" Source="Controller1.DataItem143" />
+        <Item Target="Tags" TargetProperty="Shift1" Source="Controller1.DataItem144" />
+        <Item Target="Tags" TargetProperty="Shift2" Source="Controller1.DataItem145" />
+        <Item Target="Tags" TargetProperty="Shift3" Source="Controller1.DataItem146" />
+        <Item Target="Tags" TargetProperty="Shift4" Source="Controller1.DataItem147" />
+        <Item Target="Tags" TargetProperty="AutoLoadFailCode" Source="Controller1.DataItem148" />
+        <Item Target="Tags" TargetProperty="AutoLoadFail" Source="Controller1.DataItem136" />
+        <Item Target="Tags" TargetProperty="OutSafeZone" Source="Controller1.DataItem137" />
+        <Item Target="Tags" TargetProperty="DigitalOutput25" Source="Controller1.DataItem159" />
+        <Item Target="Tags" TargetProperty="DigitalOutput27" Source="Controller1.DataItem161" />
+        <Item Target="Tags" TargetProperty="Clamped" Source="Controller1.DataItem135" />
+        <Item Target="Tags" TargetProperty="DigitalOutput21" Source="Controller1.DataItem133" />
+        <Item Target="Tags" TargetProperty="DigitalOutput22" Source="Controller1.DataItem164" />
+        <Item Target="Tags" TargetProperty="DigitalOutput23" Source="Controller1.DataItem165" />
+        <Item Target="Tags" TargetProperty="DigitalOutput24" Source="Controller1.DataItem166" />
+        <Item Target="Tags" TargetProperty="LayoutPoint" Source="Controller1.DataItem168" />
+        <Item Target="Tags" TargetProperty="DigitalOutput26" Source="Controller1.DataItem167" />
+        <Item Target="Tags" TargetProperty="DigitalOutput28" Source="Controller1.DataItem170" />
+        <Item Target="Tags" TargetProperty="LiftEncoder1Offset" Source="Controller1.DataItem48" />
+        <Item Target="Tags" TargetProperty="LiftCalibrateOn" Source="Controller1.DataItem114" />
+        <Item Target="Tags" TargetProperty="PoweStageEnabledLoadHandling" Source="Controller1.DataItem149" />
+        <Item Target="Tags" TargetProperty="SteerSensorBearingCount" Source="Controller1.DataItem150" />
+        <Item Target="Tags" TargetProperty="EncoderDistance" Source="Controller1.DataItem151" />
+        <Item Target="Tags" TargetProperty="Destination" Source="Controller1.DataItem152" />
+        <Item Target="Tags" TargetProperty="OpElapsedTime" Source="Controller1.DataItem153" />
+        <Item Target="Tags" TargetProperty="TotalAGVTime" Source="Controller1.DataItem154" />
+        <Item Target="Tags" TargetProperty="AGVTotalPicks" Source="Controller1.DataItem155" />
+        <Item Target="Tags" TargetProperty="AGVTotalDrops" Source="Controller1.DataItem156" />
+        <Item Target="Tags" TargetProperty="LoadOp1" Source="Controller1.DataItem157" />
+        <Item Target="Tags" TargetProperty="LoadOp2" Source="Controller1.DataItem158" />
+        <Item Target="Tags" TargetProperty="Lift1Speed" Source="Controller1.DataItem160" />
+        <Item Target="Tags" TargetProperty="Lift1TargetSpeed" Source="Controller1.DataItem162" />
+        <Item Target="Tags" TargetProperty="ChargeFailure" Source="Controller1.DataItem163" />
+        <Item Target="Tags" TargetProperty="CurrentSetSpeed2" Source="Controller1.DataItem169" />
+        <Item Target="Tags" TargetProperty="ActualSpeed2" Source="Controller1.DataItem171" />
+        <Item Target="Tags" TargetProperty="EncoderDistance2" Source="Controller1.DataItem172" />
+        <Item Target="Tags" TargetProperty="EncoderScalingDrive2" Source="Controller1.DataItem173" />
+        <Item Target="Tags" TargetProperty="SetAngle2" Source="Controller1.DataItem174" />
+        <Item Target="Tags" TargetProperty="SetAngle3" Source="Controller1.DataItem175" />
+        <Item Target="Tags" TargetProperty="SetAngle4" Source="Controller1.DataItem176" />
+        <Item Target="Tags" TargetProperty="ActualAngle2" Source="Controller1.DataItem177" />
+        <Item Target="Tags" TargetProperty="ActualAngle3" Source="Controller1.DataItem178" />
+        <Item Target="Tags" TargetProperty="ActualAngle4" Source="Controller1.DataItem179" />
+        <Item Target="Tags" TargetProperty="SteerSensorBearingCount2" Source="Controller1.DataItem180" />
+        <Item Target="Tags" TargetProperty="SteerSensorBearingCount3" Source="Controller1.DataItem181" />
+        <Item Target="Tags" TargetProperty="SteerSensorBearingCount4" Source="Controller1.DataItem182" />
+        <Item Target="Tags" TargetProperty="EncoderScalingSteer2" Source="Controller1.DataItem183" />
+        <Item Target="Tags" TargetProperty="EncoderScalingSteer3" Source="Controller1.DataItem184" />
+        <Item Target="Tags" TargetProperty="EncoderScalingSteer4" Source="Controller1.DataItem185" />
+        <Item Target="Tags" TargetProperty="SteerEncoderOffset2" Source="Controller1.DataItem186" />
+        <Item Target="Tags" TargetProperty="SteerEncoderOffset3" Source="Controller1.DataItem187" />
+        <Item Target="Tags" TargetProperty="SteerEncoderOffset4" Source="Controller1.DataItem188" />
+        <Item Target="Tags" TargetProperty="TargetSideshiftSpeed" Source="Controller1.DataItem189" />
+        <Item Target="Tags" TargetProperty="RotationScale" Source="Controller1.DataItem190" />
+        <Item Target="Tags" TargetProperty="ForkSetSpeed3" Source="Controller1.DataItem191" />
+        <Item Target="Tags" TargetProperty="ActualSideShiftSpeed" Source="Controller1.DataItem192" />
+        <Item Target="Tags" TargetProperty="RotationOffset" Source="Controller1.DataItem193" />
+        <Item Target="Tags" TargetProperty="TargetExtension" Source="Controller1.DataItem194" />
+        <Item Target="Tags" TargetProperty="CurrentExtension" Source="Controller1.DataItem195" />
+        <Item Target="Tags" TargetProperty="ForkCalibrate" Source="Controller1.DataItem196" />
+        <Item Target="Tags" TargetProperty="FrontWheelDistance" Source="Controller1.DataItem197" />
+        <Item Target="Tags" TargetProperty="RearWheelDistance" Source="Controller1.DataItem198" />
+        <Item Target="Tags" TargetProperty="EncScaleFork3" Source="Controller1.DataItem199" />
+        <Item Target="Tags" TargetProperty="MaxForkSpeed" Source="Controller1.DataItem200" />
+        <Item Target="Tags" TargetProperty="BadEncoderFeedBack" Source="Controller1.DataItem201" />
+        <Item Target="Tags" TargetProperty="ForkVariance" Source="Controller1.DataItem202" />
+        <Item Target="Tags" TargetProperty="ForksNotSynced" Source="Controller1.DataItem203" />
+        <Item Target="Tags" TargetProperty="ForkTO" Source="Controller1.DataItem204" />
+        <Item Target="Tags" TargetProperty="LiftTimeOut" Source="Controller1.DataItem205" />
+        <Item Target="Tags" TargetProperty="BadFork" Source="Controller1.DataItem206" />
+        <Item Target="Tags" TargetProperty="BadProx" Source="Controller1.DataItem207" />
+        <Item Target="Tags" TargetProperty="SteerMode" Source="Controller1.DataItem208" />
+        <Item Target="Tags" TargetProperty="RotationCalibrateOn" Source="Controller1.DataItem209" />
+        <Item Target="Tags" TargetProperty="WirelessRemoteLost" Source="Controller1.DataItem210" />
+        <Item Target="Tags" TargetProperty="Mismatched_Prox" Source="Controller1.DataItem211" />
+        <Item Target="Tags" TargetProperty="CAN_EMCY" Source="Controller1.DataItem212" />
+        <Item Target="Tags" TargetProperty="SideShiftTO" Source="Controller1.DataItem213" />
+        <Item Target="Tags" TargetProperty="CAN_EMCY_Node" Source="Controller1.DataItem214" />
+        <Item Target="Tags" TargetProperty="CAN_EMCY_Code" Source="Controller1.DataItem215" />
+        <Item Target="Tags" TargetProperty="TooFewReflectors" Source="Controller1.DataItem216" />
+        <Item Target="Tags" TargetProperty="ExtendedSignal" Source="Controller1.DataItem217" />
+        <Item Target="Tags" TargetProperty="ExtendedSensor" Source="Controller1.DataItem218" />
+        <Item Target="Tags" TargetProperty="ChargeActuatorTO" Source="Controller1.DataItem219" />
+        <Item Target="Tags" TargetProperty="Transucer" Source="Controller1.DataItem220" />
+        <Item Target="Tags" TargetProperty="AI_Heading" Source="Controller1.DataItem221" />
+        <Item Target="Tags" TargetProperty="PneumaticTO" Source="Controller1.DataItem222" />
+        <Item Target="Tags" TargetProperty="AssistedInsert" Source="Controller1.DataItem223" />
+        <Item Target="Tags" TargetProperty="AI_Distance" Source="Controller1.DataItem224" />
+        <Item Target="Tags" TargetProperty="TargetPSI" Source="Controller1.DataItem227" />
+        <Item Target="Tags" TargetProperty="RotateMode" Source="Controller1.DataItem118" />
+        <Item Target="Tags" TargetProperty="IgnoreCVSystem" Source="Controller1.DataItem225" />
+        <Item Target="Tags" TargetProperty="SideShiftPowerStageEnabled" Source="Controller1.DataItem226" />
+        <Item Target="Tags" TargetProperty="TargetAngularVelocity" Source="Controller1.DataItem228" />
+        <Item Target="Tags" TargetProperty="ActualAngularVelocity" Source="Controller1.DataItem229" />
+        <Item Target="Tags" TargetProperty="TargetAngle" Source="Controller1.DataItem230" />
+        <Item Target="Tags" TargetProperty="ActualRotorAngle" Source="Controller1.DataItem231" />
+        <Item Target="Tags" TargetProperty="HydraulicAction" Source="Controller1.DataItem232" />
+        <Item Target="Tags" TargetProperty="NominalPressure1" Source="Controller1.DataItem233" />
+        <Item Target="Tags" TargetProperty="NominalPressure2" Source="Controller1.DataItem234" />
+        <Item Target="Tags" TargetProperty="NominalPressure3" Source="Controller1.DataItem235" />
+        <Item Target="Tags" TargetProperty="PressureSTD1" Source="Controller1.DataItem236" />
+        <Item Target="Tags" TargetProperty="PressureSTD2" Source="Controller1.DataItem237" />
+        <Item Target="Tags" TargetProperty="PressureSTD3" Source="Controller1.DataItem238" />
+        <Item Target="Tags" TargetProperty="StartSTDCalc" Source="Controller1.DataItem239" />
+        <Item Target="Tags" TargetProperty="LoadGripperFailure" Source="Controller1.DataItem22" />
+        <Item Target="Tags" TargetProperty="LoadGripperFailureID" Source="Controller1.DataItem240" />
+        <Item Target="Tags" TargetProperty="OverPressureValue" Source="Controller1.DataItem241" />
+        <Item Target="Tags" TargetProperty="HydraulicOverPressure" Source="Controller1.DataItem242" />
+        <Item Target="Tags" TargetProperty="BadEncoderNumber" Source="Controller1.DataItem243" />
+        <Item Target="Tags" TargetProperty="ClampTimeout" Source="Controller1.DataItem244" />
+        <Item Target="Tags" TargetProperty="CVRedundantMismatch" Source="Controller1.DataItem245" />
+        <Item Target="Tags" TargetProperty="StopWord" Source="Controller1.DataItem247" />
+        <Item Target="Tags" TargetProperty="BlockedStatus" Source="Controller1.DataItem248" />
+        <Item Target="Tags" TargetProperty="BlockingID" Source="Controller1.DataItem249" />
+        <Item Target="Tags" TargetProperty="ClampMode" Source="Controller1.DataItem250" />
+        <Item Target="Tags" TargetProperty="Trunk1" Source="Controller1.DataItem251" />
+        <Item Target="Tags" TargetProperty="Trunk2" Source="Controller1.DataItem252" />
+        <Item Target="Tags" TargetProperty="SetTrunkValue" Source="Controller1.DataItem253" />
+        <Item Target="Tags" TargetProperty="GetTrunkValue" Source="Controller1.DataItem254" />
+        <Item Target="Tags" TargetProperty="SpeedCalibrationOn2" Source="Controller1.DataItem255" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.ToggleScreenSaver" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.DisableLockscreen" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.PLC_RequestScreenSaver" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.CurrentOrderMode" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.SystemTagCommunicationErrors" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.SystemTagCurrentUser" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueOn" Source="Tags.DigitalInput30" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueOff" Source="Tags.DigitalInput30" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.RunningAvg" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.I_Instant" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Hr1" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Hr2" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Hr3" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Hr4" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Shift1" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Shift2" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Shift3" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Shift4" />
+        <Item Target="Tags.Script.cs" Source="Tags.ToggleScreenSaver" />
+        <Item Target="Tags.Script.cs" Source="Tags.DisableLockscreen" />
+        <Item Target="Tags.Script.cs" Source="Tags.PLC_RequestScreenSaver" />
+        <Item Target="Tags.Script.cs" Source="Tags.MenusAccesible" />
+        <Item Target="Tags.Script.cs" Source="Tags.ConnectionBroken" />
+        <Item Target="Tags.Script.cs" Source="Tags.CurrentOrderMode" />
+        <Item Target="Tags.Script.cs" Source="Tags.LocalOrderSettingsVisible" />
+        <Item Target="Tags.Script.cs" Source="Tags.SystemTagCommunicationErrors" />
+        <Item Target="Tags.Script.cs" Source="Tags.SystemTagCurrentUser" />
+        <Item Target="Tags.Script.cs" Source="Tags.IOForceMode" />
+        <Item Target="Tags.Script.cs" Source="Tags.RunningAvg" />
+        <Item Target="Tags.Script.cs" Source="Tags.I_Instant" />
+        <Item Target="Tags.Script.cs" Source="Tags.Hr1" />
+        <Item Target="Tags.Script.cs" Source="Tags.Hr2" />
+        <Item Target="Tags.Script.cs" Source="Tags.Hr3" />
+        <Item Target="Tags.Script.cs" Source="Tags.Hr4" />
+        <Item Target="Tags.Script.cs" Source="Tags.Shift1" />
+        <Item Target="Tags.Script.cs" Source="Tags.Shift2" />
+        <Item Target="Tags.Script.cs" Source="Tags.Shift3" />
+        <Item Target="Tags.Script.cs" Source="Tags.Shift4" />
+        <Item Target="Tags.Script.cs" Source="Tags.Hr1Internal" />
+        <Item Target="Tags.Script.cs" Source="Tags.Hr2Internal" />
+        <Item Target="Tags.Script.cs" Source="Tags.Hr3Internal" />
+        <Item Target="Tags.Script.cs" Source="Tags.Hr4Internal" />
+        <Item Target="Tags.Script.cs" Source="Tags.Shift1Internal" />
+        <Item Target="Tags.Script.cs" Source="Tags.Shift2Internal" />
+        <Item Target="Tags.Script.cs" Source="Tags.Shift3Internal" />
+        <Item Target="Tags.Script.cs" Source="Tags.Shift4Internal" />
+        <Item Target="Tags.Script.cs" Source="Tags.InstAvgInternal" />
+        <Item Target="Tags.Script.cs" Source="Tags.Inst_I_Internal" />
+        <Item Target="Tags.Script.cs" Source="Tags.GetTrunkValue" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

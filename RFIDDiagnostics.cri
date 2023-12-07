@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="RFIDDiagnostics.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RFIDDiagnostics.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RFIDDiagnostics.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RFIDDiagnostics.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RFIDDiagnostics.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RFIDDiagnostics.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="RFIDDiagnostics.AnalogNumeric" TargetProperty="Value" Source="Tags.Trunk1" />
+        <Item Target="RFIDDiagnostics.AnalogNumeric1" TargetProperty="Value" Source="Tags.Trunk2" />
+        <Item Target="RFIDDiagnostics.Text4" TargetProperty="Value" Source="Tags.SetTrunkValue" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>RFIDDiagnostics</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>47</ObjectsCount>
+          <ScreenName>RFIDDiagnostics</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="RFIDDiagnostics.Script.cs" Source="Tags.GetTrunkValue" />
+        <Item Target="RFIDDiagnostics.Script.cs" Source="Tags.SetTrunkValue" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="LiDARParameters.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiDARParameters.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiDARParameters.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiDARParameters.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiDARParameters.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiDARParameters.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiDARParameters.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiDARParameters.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiDARParameters.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiDARParameters.AnalogNumeric2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiDARParameters.Modify" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiDARParameters.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiDARParameters.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiDARParameters.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiDARParameters.AngleOld" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiDARParameters.Xold" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiDARParameters.Yold" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiDARParameters.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="LiDARParameters.AnalogNumeric" TargetProperty="Value" Source="Tags.LaserAngle" />
+        <Item Target="LiDARParameters.AnalogNumeric" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LaserCalibrateOn" />
+        <Item Target="LiDARParameters.Text2" TargetProperty="Value" Source="Tags.LaserAngle" />
+        <Item Target="LiDARParameters.Text4" TargetProperty="Value" Source="Tags.LaserXOffset" />
+        <Item Target="LiDARParameters.Text6" TargetProperty="Value" Source="Tags.LaserYOffset" />
+        <Item Target="LiDARParameters.AnalogNumeric1" TargetProperty="Value" Source="Tags.LaserXOffset" />
+        <Item Target="LiDARParameters.AnalogNumeric1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LaserCalibrateOn" />
+        <Item Target="LiDARParameters.AnalogNumeric2" TargetProperty="Value" Source="Tags.LaserYOffset" />
+        <Item Target="LiDARParameters.AnalogNumeric2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LaserCalibrateOn" />
+        <Item xsi:type="ActionItem" Target="LiDARParameters.Modify" TargetProperty="Actions" Source="Tags.LaserCalibrateOn" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="LiDARParameters.Modify" TargetProperty="TextValue" Source="Tags.LaserCalibrateOn" />
+        <Item Target="LiDARParameters.AngleOld" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LaserCalibrateOn" />
+        <Item Target="LiDARParameters.Xold" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LaserCalibrateOn" />
+        <Item Target="LiDARParameters.Yold" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LaserCalibrateOn" />
+        <Item Target="LiDARParameters.Text10" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LaserCalibrateOn" />
+        <Item xsi:type="ActionItem" Target="LiDARParameters" TargetProperty="Actions" Source="Tags.LaserCalibrateOn" Event="Closed" Action="Reset Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>LiDARParameters</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>60</ObjectsCount>
+          <ScreenName>LiDARParameters</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="LiDARParameters.Script.cs" Source="Tags.LaserAngle" />
+        <Item Target="LiDARParameters.Script.cs" Source="Tags.LaserXOffset" />
+        <Item Target="LiDARParameters.Script.cs" Source="Tags.LaserYOffset" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="LiDARParameters.Modify" TargetProperty="Actions" Source="Tags.LaserCalibrateOn" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="LiDARParameters" TargetProperty="Actions" Source="Tags.LaserCalibrateOn" Event="Closed" Action="Reset Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="LiDARParameters.Picture" Source="lazer" Width="50" Height="50" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

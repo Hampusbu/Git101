@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfScreenIDInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ScreenIDInformation>
+    <ScreenId>1</ScreenId>
+    <ScreenName>Home</ScreenName>
+  </ScreenIDInformation>
+  <ScreenIDInformation>
+    <ScreenId>0</ScreenId>
+    <ScreenName>ScreenSaver</ScreenName>
+  </ScreenIDInformation>
+  <ScreenIDInformation>
+    <ScreenId>2</ScreenId>
+    <ScreenName>OperatingParameters</ScreenName>
+  </ScreenIDInformation>
+  <ScreenIDInformation>
+    <ScreenId>3</ScreenId>
+    <ScreenName>Diagnostics</ScreenName>
+  </ScreenIDInformation>
+  <ScreenIDInformation>
+    <ScreenId>4</ScreenId>
+    <ScreenName>LocalOrder</ScreenName>
+  </ScreenIDInformation>
+  <ScreenIDInformation>
+    <ScreenId>5</ScreenId>
+    <ScreenName>VersionInformation</ScreenName>
+  </ScreenIDInformation>
+</ArrayOfScreenIDInformation>

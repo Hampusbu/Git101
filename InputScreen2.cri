@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="InputScreen2.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="InputScreen2.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="InputScreen2.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="InputScreen2.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="InputScreen2.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="InputScreen2.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="InputScreen2.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="InputScreen2.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="InputScreen2.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="InputScreen2.MultiPicture" TargetProperty="Value" Source="Tags.DigitalInput10" />
+        <Item Target="InputScreen2.MultiPicture1" TargetProperty="Value" Source="Tags.DigitalInput12" />
+        <Item Target="InputScreen2.MultiPicture2" TargetProperty="Value" Source="Tags.DigitalInput17" />
+        <Item Target="InputScreen2.MultiPicture3" TargetProperty="Value" Source="Tags.DigitalInput18" />
+        <Item Target="InputScreen2.MultiPicture4" TargetProperty="Value" Source="Tags.DigitalInput15" />
+        <Item Target="InputScreen2.MultiPicture5" TargetProperty="Value" Source="Tags.DigitalInput14" />
+        <Item Target="InputScreen2.MultiPicture6" TargetProperty="Value" Source="Tags.DigitalInput19" />
+        <Item Target="InputScreen2.MultiPicture7" TargetProperty="Value" Source="Tags.DigitalInput20" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="InputScreen2.Picture1" TargetProperty="Actions" Source="InputScreen3" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="InputScreen2.Picture2" TargetProperty="Actions" Source="InputScreen1" Event="MouseDown" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>InputScreen2</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>62</ObjectsCount>
+          <ScreenName>InputScreen2</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="InputScreen2.Picture" Source="input" Width="56" Height="56" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture" Source="radioon" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture1" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture1" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture1" Source="radioon" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture2" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture2" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture2" Source="radioon" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture3" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture3" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture3" Source="radioon" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture4" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture4" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture4" Source="radioon" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture5" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture5" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture5" Source="radioon" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.Picture1" Source="forward" Width="70" Height="69" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.Picture2" Source="backward" Width="70" Height="69" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture6" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture6" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture6" Source="radioon" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture7" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture7" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="InputScreen2.MultiPicture7" Source="radioon" Width="50" Height="50" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

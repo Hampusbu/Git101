@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="Navbar.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Navbar.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Navbar.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Navbar.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Navbar.Text11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Navbar.Text12" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Navbar.Text14" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Navbar.Text15" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Navbar.Text16" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Navbar.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Navbar.Group4.Text18" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Navbar.Group4.Text17" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Navbar.Group4.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Navbar.Group2.Text19" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Navbar.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Navbar.StopCondition" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Navbar.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Navbar.BlockedID" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Navbar.Picture1" TargetProperty="Actions" Source="Tags.HighlightLogin" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Navbar.Picture3" TargetProperty="Actions" Source="Tags.HighlightLogin" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item Target="Navbar.Text6" TargetProperty="Value" Source="Tags.SystemTagCPULoad" />
+        <Item Target="Navbar.Text8" TargetProperty="Value" Source="Tags.SystemTagInternalTemperature" />
+        <Item Target="Navbar.Text9" TargetProperty="Value" Source="Tags.SystemTagProjectName" />
+        <Item Target="Navbar.Text10" TargetProperty="Value" Source="Tags.SystemTagScreenUpdateTime" />
+        <Item Target="Navbar.Text11" TargetProperty="Value" Source="Tags.SystemTagUsedRAMPercent" />
+        <Item Target="Navbar.PolyLine" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.SystemTagCurrentScreenId" />
+        <Item Target="Navbar.PolyLine1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.SystemTagCurrentScreenId" />
+        <Item Target="Navbar.PolyLine2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.SystemTagCurrentScreenId" />
+        <Item Target="Navbar.PolyLine3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.SystemTagCurrentScreenId" />
+        <Item Target="Navbar.PolyLine4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.SystemTagCurrentScreenId" />
+        <Item Target="Navbar.Group4.Text18" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.DigitalInput2" />
+        <Item Target="Navbar.Group4.Text" TargetProperty="Value" Source="Tags.BatteryVoltage" />
+        <Item Target="Navbar.Group1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.AnyAlarmActive" />
+        <Item Target="Navbar.Picture8" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.AnyAlarmActive" />
+        <Item Target="Navbar.Group2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.AnyAlarmActive" />
+        <Item Target="Navbar.Group2.Text19" TargetProperty="Value" Source="Tags.AlarmsActive" />
+        <Item Target="Navbar.StopCondition" TargetProperty="Text" Source="Tags.StopWord" />
+        <Item xsi:type="ActionItem" Target="Navbar" TargetProperty="Actions" Source="Tags.HighlightLogin" Event="Opened" Action="Reset Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Navbar.Picture" TargetProperty="Actions" Source="Home" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Navbar.Picture1" TargetProperty="Actions" Source="OperatingParameters" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Navbar.Picture2" TargetProperty="Actions" Source="Diagnostics" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Navbar.Picture4" TargetProperty="Actions" Source="VersionInformation" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Navbar.Picture3" TargetProperty="Actions" Source="LocalOrder" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Navbar.Picture8" TargetProperty="Actions" Source="Alarms" Event="MouseDown" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="Navbar.Group2" TargetProperty="Actions" Source="Alarms" Event="PreviewMouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>Navbar</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>34</ObjectsCount>
+          <ScreenName>Navbar</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="Navbar.Script.cs" Source="Tags.BlockedStatus" />
+        <Item Target="Navbar.Script.cs" Source="Tags.BlockingID" />
+        <Item Target="Navbar.Script.cs" Source="Tags.TimeStamp" />
+        <Item Target="Navbar.Script.cs" Source="Tags.PreviousTimeStamp" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Navbar.Picture1" TargetProperty="Actions" Source="Tags.HighlightLogin" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Navbar.Picture3" TargetProperty="Actions" Source="Tags.HighlightLogin" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Navbar" TargetProperty="Actions" Source="Tags.HighlightLogin" Event="Opened" Action="Reset Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="Navbar.Picture" Source="homeicon" Width="80" Height="80" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Navbar.Picture1" Source="buildicon" Width="70" Height="69" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Navbar.Picture2" Source="diag (1)" Width="70" Height="69" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Navbar.Picture4" Source="vehicleinfo (2)" Width="70" Height="69" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Navbar.Picture3" Source="localorder_gapac" Width="85" Height="84" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Navbar.Group4.Picture5" Source="battery" Width="85" Height="84" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Navbar.Picture8" Source="allokey" Width="60" Height="60" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Navbar.Group2.Picture6" Source="warning3" Width="60" Height="59" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Navbar.Group2.Picture7" Source="warningbackground (1)" Width="68" Height="68" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items>
+        <Item xsi:type="TextLibraryItem" Target="Navbar.StopCondition" TargetProperty="Text" Source="StopConditions" />
+      </Items>
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

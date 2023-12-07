@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="AGVStats.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AGVStats.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AGVStats.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AGVStats.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AGVStats.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AGVStats.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AGVStats.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AGVStats.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AGVStats.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AGVStats.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AGVStats.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AGVStats.AnalogNumeric2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AGVStats.AnalogNumeric3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AGVStats.AnalogNumeric4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AGVStats.AnalogNumeric5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AGVStats.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="AGVStats.AnalogNumeric" TargetProperty="Value" Source="Tags.TotalAGVTime" />
+        <Item Target="AGVStats.AnalogNumeric1" TargetProperty="Value" Source="Tags.OpElapsedTime" />
+        <Item Target="AGVStats.AnalogNumeric2" TargetProperty="Value" Source="Tags.AGVTotalPicks" />
+        <Item Target="AGVStats.AnalogNumeric3" TargetProperty="Value" Source="Tags.AGVTotalDrops" />
+        <Item Target="AGVStats.AnalogNumeric4" TargetProperty="Value" Source="Tags.LoadOp1" />
+        <Item Target="AGVStats.AnalogNumeric5" TargetProperty="Value" Source="Tags.LoadOp2" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>AGVStats</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>58</ObjectsCount>
+          <ScreenName>AGVStats</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

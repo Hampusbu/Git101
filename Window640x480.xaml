@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><nacs:ScreenWindow Top="-27" Left="0" Topmost="False" Title="Window640x480" ResizeMode="CanResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="SingleBorder" ModalScreen="True" ScreenSize="800, 480" ScreenPosition="0, -27" ScreenTitle="" ScreenID="{x:Null}" TemplateScreen="{x:Null}" PopupScreen="False" StyleName="Default" IsCacheable="False" Width="800" Height="480" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nacc="clr-namespace:Neo.ApplicationFramework.Controls.Controls;assembly=Controls" xmlns:nacs1="clr-namespace:Neo.ApplicationFramework.Controls.Symbol;assembly=Controls" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" x:Class="Neo.ApplicationFramework.Generated.Window640x480">
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="800" Height="480" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Display" TextOptions.TextRenderingMode="ClearType">
+    <nacc:Rectangle Fill="#FF23323A" Stroke="{x:Null}" Name="m_Rectangle" Width="642" Height="60" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="3" Canvas.Left="78" Canvas.Top="0" />
+    <nacs1:Picture SymbolName="blurredbackground_640x480 (1)" Stretch="True" FontSize="8" Name="m_Picture" Width="800" Height="480" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="1" Canvas.Left="0" Canvas.Top="0">
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Show Previous Screen">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="ActionBackScreen" ObjectName="GetService&lt;Neo.ApplicationFramework.Interfaces.IScreenManager&gt;()" EventName="MouseDown" ReferenceType="Service" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="True" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nacs1:Picture>
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>

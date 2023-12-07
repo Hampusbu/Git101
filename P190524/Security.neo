@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.42.103.0'?>
+<NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.Security.SecurityManager, ToolsCF, Version=2.42.103.0, Culture=neutral, PublicKeyToken=null" MinimumPasswordLength="2" AutomaticLogoutEnabled="True" AutomaticLogoutMinutes="15" VisibilityOnAccessDenied="Normal" ActionOnAccessDenied="ShowLoginDialog" d1p1:Site.Name="Security" ProjectGuid="fb9bcac8-b4b2-4588-a993-ed2b7bb72767">
+    <Events>
+      <Event Name="Initialized" EventHandler="Security_Initialized" />
+    </Events>
+  </Object>
+</NeoItem>

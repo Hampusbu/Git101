@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="Assisted_Insert.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Assisted_Insert.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Assisted_Insert.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Assisted_Insert.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="Assisted_Insert.AnalogNumeric" TargetProperty="Value" Source="Tags.AI_Distance" />
+        <Item Target="Assisted_Insert.MultiPicture" TargetProperty="Value" Source="Tags.AI_Heading" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>Assisted_Insert</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>45</ObjectsCount>
+          <ScreenName>Assisted_Insert</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_0" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_0" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_5" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_10" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_15" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_20" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_25" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_30" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_35" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_40" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_45" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_50" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_55" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_60" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_65" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_70" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_75" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_80" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_85" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_90" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_95" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_100" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_105" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_110" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_115" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_120" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_125" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_130" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_135" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_140" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_145" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_150" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_155" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_160" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_165" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_170" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_175" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_180" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_185" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_190" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_195" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_200" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_205" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_210" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_215" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_220" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_225" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_230" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_235" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_240" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_245" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_250" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_255" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_260" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_265" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_270" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_275" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_280" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_285" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_290" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_295" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_300" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_305" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_310" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_315" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_320" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_325" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_330" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_335" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_340" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_345" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_350" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_355" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Assisted_Insert.MultiPicture" Source="waypoint_0" Width="100" Height="100" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

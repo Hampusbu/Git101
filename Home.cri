@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="Home.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Home.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Home.Button1" TargetProperty="Actions" Source="Tags.BB_Trigger" Event="Click" Action="Set Tag" Param="" />
+        <Item Target="Home.Button1" TargetProperty="Background" Source="Tags.BB_Trigger" />
+        <Item Target="Home.MultiPicture" TargetProperty="Value" Source="Tags.SysMan_Connection" />
+        <Item Target="Home.MultiPicture1" TargetProperty="Value" Source="Tags.WIFI_Connection" />
+        <Item Target="Home.MultiPicture4" TargetProperty="Value" Source="Tags.HighlightLogin" />
+        <Item Target="Home.Picture8" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.RearScannerStopField" />
+        <Item Target="Home.Picture11" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.RearScannerWarningField" />
+        <Item Target="Home.Picture15" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.EStopActive" />
+        <Item Target="Home.Picture10" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.FrontScannerWarningField" />
+        <Item Target="Home.Picture7" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.FrontScannerStopField" />
+        <Item Target="Home.Picture14" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.EStopActive" />
+        <Item Target="Home.Picture4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.EStopActive" />
+        <Item Target="Home.Picture13" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.EStopActive" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Home.Button" TargetProperty="Actions" Source="HomeScreenInfo" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="1">
+          <ScreenName>Home</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>52</ObjectsCount>
+          <ScreenName>Home</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Home.Button1" TargetProperty="Actions" Source="Tags.BB_Trigger" Event="Click" Action="Set Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="Home.Picture6" Source="people_logout" Width="62" Height="62" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.MultiPicture" Source="systemmanager_disconnected (2)" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.MultiPicture" Source="systemmanager_disconnected (2)" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.MultiPicture" Source="systemmanager_connected (2)" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.MultiPicture1" Source="wifi_disconnected" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.MultiPicture1" Source="wifi_disconnected" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.MultiPicture1" Source="wifi_connected" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.MultiPicture4" Source="people" Width="60" Height="60" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.MultiPicture4" Source="people" Width="60" Height="60" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.MultiPicture4" Source="people_highlighted" Width="60" Height="60" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.SettingsIcon" Source="settings" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.Picture5" Source="optx2-agv (1)" Width="352" Height="240" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.Picture8" Source="edited2" Width="71" Height="70" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.Picture11" Source="warning" Width="88" Height="89" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.Picture15" Source="estop" Width="40" Height="40" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.Picture10" Source="warning" Width="88" Height="89" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.Picture7" Source="edited2" Width="71" Height="70" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.Picture14" Source="estop" Width="40" Height="40" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.Picture4" Source="estop" Width="40" Height="40" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.Picture13" Source="estop" Width="40" Height="40" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Home.Picture2" Source="backward" Width="73" Height="72" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

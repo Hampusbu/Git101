@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?><nacs:ScreenWindow Topmost="False" Title="SteerDiagnostics4" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="ThreeDBorder" ScreenSize="800, 480" StyleName="Default" IsCacheable="True" Background="{x:Null}" Width="800" Height="480" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nacs1="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=ControlsCF" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nacb="clr-namespace:Neo.ApplicationFramework.Controls.Blink;assembly=Controls" xmlns:nacd="clr-namespace:Neo.ApplicationFramework.Common.Data;assembly=CommonCF" xmlns:nacb1="clr-namespace:Neo.ApplicationFramework.Common.Behaviors;assembly=Common" xmlns:nacc="clr-namespace:Neo.ApplicationFramework.Common.Converters;assembly=Common" xmlns:nacb2="clr-namespace:Neo.ApplicationFramework.Common.Bevel;assembly=Common" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nacs2="clr-namespace:Neo.ApplicationFramework.Controls.Symbol;assembly=Controls" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" x:Class="Neo.ApplicationFramework.Generated.SteerDiagnostics4">
+  <nacs:ScreenWindow.TemplateScreen>
+    <nacs1:TemplateScreen Name="Background" RenderMode="Background" />
+  </nacs:ScreenWindow.TemplateScreen>
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="800" Height="480" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Display" TextOptions.TextRenderingMode="ClearType" Panel.ZIndex="104">
+    <nac:Label AutoSize="True" WordWrap="False" AutoStretchFont="False" Text="Current Set angle:" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text1" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="1" Canvas.Left="224" Canvas.Top="136">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:Label AutoSize="True" WordWrap="False" AutoStretchFont="False" Text="Actual angle:" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text2" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="2" Canvas.Left="269" Canvas.Top="185" nacb:BlinkProperties.VisibleDynamicsValue="True">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:Label AutoSize="True" WordWrap="False" AutoStretchFont="False" Text="Text" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text3" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="3" Canvas.Left="431" Canvas.Top="185" nacb:BlinkProperties.VisibleDynamicsValue="True" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="False">
+      <nac:Label.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac:Label.Resources>
+      <nac:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.ActualAngle4].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac:Label.Value>
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:Label AutoSize="True" WordWrap="False" AutoStretchFont="False" Text="Sensor bearing count:" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text5" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="4" Canvas.Left="189" Canvas.Top="235">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:Label AutoSize="True" WordWrap="False" AutoStretchFont="False" Text="Text" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text7" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="5" Canvas.Left="430" Canvas.Top="235">
+      <nac:Label.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac:Label.Resources>
+      <nac:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.SteerSensorBearingCount4].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac:Label.Value>
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:AnalogNumericFX AutoStretchFont="False" DisplayFormat="Decimal" NumberOfDecimals="2" MaxNumberOfCharacters="10" LimitNumberOfCharacters="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" IsReadOnly="True" BorderBrush="#FF7F9DB9" BorderThickness="0,0,0,0" Background="#FFFFFFFF" Foreground="#FF000000" FontSize="20" Padding="2,2,2,2" Name="m_AnalogNumeric" Width="100" Height="30" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsEnabled="True" Focusable="False" Panel.ZIndex="6" KeyboardNavigation.TabNavigation="None" Canvas.Left="421" Canvas.Top="136" nac:EnabledProperties.EnabledDynamicsValue="True">
+      <nac:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac:AnalogNumericFX.Resources>
+      <nac:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.SetAngle4].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac:AnalogNumericFX.Value>
+      <nac:AnalogNumericFX.BevelEffectInfo>
+        <nacb2:BevelEffectInfo Style="None" Width="2" />
+      </nac:AnalogNumericFX.BevelEffectInfo>
+      <nac:AnalogNumericFX.TextDecorations>
+        <TextDecorationCollection />
+      </nac:AnalogNumericFX.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList />
+      </nai:ActionProperties.Actions>
+    </nac:AnalogNumericFX>
+    <nac:Label AutoSize="True" WordWrap="False" AutoStretchFont="False" Text="Degrees" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text4" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="7" Canvas.Left="529" Canvas.Top="136">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:Label AutoSize="True" WordWrap="False" AutoStretchFont="False" Text="Degrees" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text6" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="8" Canvas.Left="529" Canvas.Top="185">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:Label AutoSize="True" WordWrap="False" AutoStretchFont="False" Text="REAR LEFT STEER" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text8" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="9" Canvas.Left="17" Canvas.Top="72">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nacs2:Picture SymbolName="steer" Stretch="True" FontSize="8" Name="m_Picture" Width="50" Height="50" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="10" Canvas.Left="16" Canvas.Top="0" />
+    <nac:Label AutoSize="True" WordWrap="False" AutoStretchFont="False" Text="STEER" Background="#00FFFFFF" Foreground="#FFECECEC" FontFamily="Tahoma" FontSize="28" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="7,0,7,1" Name="m_Text" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="11" Canvas.Left="75" Canvas.Top="6">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nacs2:Picture SymbolName="backward" FontSize="8" Name="m_Picture2" Width="70" Height="69" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="12" Canvas.Left="-12" Canvas.Top="331">
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Show Screen">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Show" ObjectName="SteerDiagnostics3" EventName="MouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="Neo.ApplicationFramework.Tools.Action.ScreenInstanceObjectPathProvider, ToolsIde, Version=2.40.2006.0, Culture=neutral, PublicKeyToken=null" ObjectPath="Default" ExplicitAuditTrail="False">
+                <nata:ActionMethodInfo.ActionParameterInfo>
+                  <nai:ActionParameterInfoList>
+                    <nata:ActionParameterInfo Position="0" Value="{x:Null}" ParameterName="position" ParameterTypeString="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" TagName="" />
+                  </nai:ActionParameterInfoList>
+                </nata:ActionMethodInfo.ActionParameterInfo>
+              </nata:ActionMethodInfo>
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nacs2:Picture>
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>

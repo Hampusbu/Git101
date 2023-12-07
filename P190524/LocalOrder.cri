@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="LocalOrder.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LocalOrder.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LocalOrder.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LocalOrder.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LocalOrder.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LocalOrder.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LocalOrder.AnalogNumeric2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LocalOrder.AnalogNumeric3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LocalOrder.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LocalOrder.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LocalOrder.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LocalOrder.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LocalOrder.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LocalOrder.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LocalOrder.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LocalOrder.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LocalOrder.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LocalOrder.Text11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="LocalOrder.Text2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LocalOrderSettingsVisible" />
+        <Item Target="LocalOrder.AnalogNumeric" TargetProperty="Value" Source="Tags.LocalOrderDestPoint" />
+        <Item Target="LocalOrder.AnalogNumeric" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LocalOrderSettingsVisible" />
+        <Item Target="LocalOrder.Text3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LocalOrderSettingsVisible" />
+        <Item Target="LocalOrder.AnalogNumeric1" TargetProperty="Value" Source="Tags.LocalOrderOpCode" />
+        <Item Target="LocalOrder.AnalogNumeric1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LocalOrderSettingsVisible" />
+        <Item Target="LocalOrder.AnalogNumeric2" TargetProperty="Value" Source="Tags.LocalOrderOpParam1" />
+        <Item Target="LocalOrder.AnalogNumeric2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LocalOrderSettingsVisible" />
+        <Item Target="LocalOrder.AnalogNumeric3" TargetProperty="Value" Source="Tags.LocalOrderOpParam2" />
+        <Item Target="LocalOrder.AnalogNumeric3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LocalOrderSettingsVisible" />
+        <Item Target="LocalOrder.Text4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LocalOrderSettingsVisible" />
+        <Item Target="LocalOrder.Text5" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LocalOrderSettingsVisible" />
+        <Item xsi:type="ActionItem" Target="LocalOrder.Button" TargetProperty="Actions" Source="Tags.LocalOrderStart" Event="Click" Action="Set Tag" Param="" />
+        <Item Target="LocalOrder.Button" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LocalOrderSettingsVisible" />
+        <Item xsi:type="ActionItem" Target="LocalOrder.Button1" TargetProperty="Actions" Source="Tags.LocalOrderCancel" Event="Click" Action="Set Tag" Param="" />
+        <Item Target="LocalOrder.Button1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LocalOrderStart" />
+        <Item Target="LocalOrder.Text6" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LocalOrderSettingsVisible" />
+        <Item Target="LocalOrder.Text7" TargetProperty="Value" Source="Tags.CurrentPoint" />
+        <Item Target="LocalOrder.Text7" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LocalOrderSettingsVisible" />
+        <Item Target="LocalOrder.Text8" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LocalOrderSettingsVisible" />
+        <Item xsi:type="ActionItem" Target="LocalOrder.MultiPicture" TargetProperty="Actions" Source="Tags.SetOrderMode" Event="MouseDown" Action="Set Analog" Param="" />
+        <Item Target="LocalOrder.MultiPicture" TargetProperty="Value" Source="Tags.CurrentOrderMode" />
+        <Item xsi:type="ActionItem" Target="LocalOrder.Text9" TargetProperty="Actions" Source="Tags.SetOrderMode" Event="MouseDown" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="LocalOrder.MultiPicture1" TargetProperty="Actions" Source="Tags.SetOrderMode" Event="MouseDown" Action="Set Analog" Param="" />
+        <Item Target="LocalOrder.MultiPicture1" TargetProperty="Value" Source="Tags.CurrentOrderMode" />
+        <Item xsi:type="ActionItem" Target="LocalOrder.Text10" TargetProperty="Actions" Source="Tags.SetOrderMode" Event="MouseDown" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="LocalOrder.MultiPicture2" TargetProperty="Actions" Source="Tags.SetOrderMode" Event="MouseDown" Action="Set Analog" Param="" />
+        <Item Target="LocalOrder.MultiPicture2" TargetProperty="Value" Source="Tags.CurrentOrderMode" />
+        <Item xsi:type="ActionItem" Target="LocalOrder.Text11" TargetProperty="Actions" Source="Tags.SetOrderMode" Event="MouseDown" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="4">
+          <ScreenName>LocalOrder</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>64</ObjectsCount>
+          <ScreenName>LocalOrder</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="LocalOrder.Button" TargetProperty="Actions" Source="Tags.LocalOrderStart" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="LocalOrder.Button1" TargetProperty="Actions" Source="Tags.LocalOrderCancel" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="LocalOrder.MultiPicture" TargetProperty="Actions" Source="Tags.SetOrderMode" Event="MouseDown" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="LocalOrder.Text9" TargetProperty="Actions" Source="Tags.SetOrderMode" Event="MouseDown" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="LocalOrder.MultiPicture1" TargetProperty="Actions" Source="Tags.SetOrderMode" Event="MouseDown" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="LocalOrder.Text10" TargetProperty="Actions" Source="Tags.SetOrderMode" Event="MouseDown" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="LocalOrder.MultiPicture2" TargetProperty="Actions" Source="Tags.SetOrderMode" Event="MouseDown" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="LocalOrder.Text11" TargetProperty="Actions" Source="Tags.SetOrderMode" Event="MouseDown" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="LocalOrder.Picture" Source="localorder_gapac" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="LocalOrder.MultiPicture" Source="radiooff (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="LocalOrder.MultiPicture" Source="radiooff (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="LocalOrder.MultiPicture" Source="radioon (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="LocalOrder.MultiPicture" Source="radiooff (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="LocalOrder.MultiPicture1" Source="radiooff (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="LocalOrder.MultiPicture1" Source="radiooff (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="LocalOrder.MultiPicture1" Source="radioon (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="LocalOrder.MultiPicture1" Source="radiooff (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="LocalOrder.MultiPicture2" Source="radiooff (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="LocalOrder.MultiPicture2" Source="radiooff (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="LocalOrder.MultiPicture2" Source="radioon (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="LocalOrder.MultiPicture2" Source="radiooff (1)" Width="39" Height="39" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

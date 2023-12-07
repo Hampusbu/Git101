@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="SteeringParameters1.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SteeringParameters1.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SteeringParameters1.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SteeringParameters1.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SteeringParameters1.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SteeringParameters1.Modify" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SteeringParameters1.SteerScale1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SteeringParameters1.SteerOffset1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SteeringParameters1.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SteeringParameters1.DriveEncoderSet" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SteeringParameters1.SteerEncoderSet" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SteeringParameters1.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SteeringParameters1.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SteeringParameters1.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SteeringParameters1.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SteeringParameters1.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="SteeringParameters1.Modify" TargetProperty="Actions" Source="Tags.EncoderCalibrateOn" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="SteeringParameters1.Modify" TargetProperty="TextValue" Source="Tags.EncoderCalibrateOn" />
+        <Item Target="SteeringParameters1.SteerScale1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.EncoderCalibrateOn" />
+        <Item Target="SteeringParameters1.SteerOffset1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.EncoderCalibrateOn" />
+        <Item Target="SteeringParameters1.Text10" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.EncoderCalibrateOn" />
+        <Item Target="SteeringParameters1.DriveEncoderSet" TargetProperty="Value" Source="Tags.EncoderScalingSteer1" />
+        <Item Target="SteeringParameters1.DriveEncoderSet" TargetProperty="IsReadOnly" Source="Tags.EncoderCalibrateOn" />
+        <Item Target="SteeringParameters1.SteerEncoderSet" TargetProperty="Value" Source="Tags.SteerEncoderOffset1" />
+        <Item Target="SteeringParameters1.SteerEncoderSet" TargetProperty="IsReadOnly" Source="Tags.EncoderCalibrateOn" />
+        <Item Target="SteeringParameters1.Button" TargetProperty="Value" Source="Tags.SetZeroAngle" />
+        <Item Target="SteeringParameters1.Button" TargetProperty="Background" Source="Tags.SetZeroAngle" />
+        <Item Target="SteeringParameters1.Text9" TargetProperty="Value" Source="Tags.ActualAngle" />
+        <Item xsi:type="ActionItem" Target="SteeringParameters1" TargetProperty="Actions" Source="Tags.EncoderCalibrateOn" Event="Closed" Action="Reset Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="SteeringParameters1.Picture1" TargetProperty="Actions" Source="SteeringParameters2" Event="MouseDown" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>SteeringParameters1</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>61</ObjectsCount>
+          <ScreenName>SteeringParameters1</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="SteeringParameters1.Script.cs" Source="Tags.EncoderScalingSteer1" />
+        <Item Target="SteeringParameters1.Script.cs" Source="Tags.SteerEncoderOffset1" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="SteeringParameters1.Modify" TargetProperty="Actions" Source="Tags.EncoderCalibrateOn" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="SteeringParameters1" TargetProperty="Actions" Source="Tags.EncoderCalibrateOn" Event="Closed" Action="Reset Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="SteeringParameters1.Picture" Source="steer" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="SteeringParameters1.Picture1" Source="forward" Width="70" Height="69" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

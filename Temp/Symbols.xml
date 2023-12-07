@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols>
+  <Symbol FileName="homeicon.bmp" Transparent="true" Width="80" Height="80" />
+  <Symbol FileName="buildicon.bmp" Transparent="true" Width="70" Height="70" />
+  <Symbol FileName="diag (1).bmp" Transparent="true" Width="70" Height="70" />
+  <Symbol FileName="vehicleinfo (2).bmp" Transparent="true" Width="70" Height="70" />
+  <Symbol FileName="localorder_gapac.bmp" Transparent="true" Width="85" Height="85" />
+  <Symbol FileName="battery.bmp" Transparent="true" Width="85" Height="85" />
+  <Symbol FileName="allokey.bmp" Transparent="true" Width="128" Height="128" />
+  <Symbol FileName="warning3.bmp" Transparent="true" Width="109" Height="109" />
+  <Symbol FileName="warningbackground (1).bmp" Transparent="true" Width="125" Height="125" />
+  <Symbol FileName="people_logout.bmp" Transparent="true" Width="62" Height="62" />
+  <Symbol FileName="systemmanager_disconnected (2).bmp" Transparent="true" Width="60" Height="60" />
+  <Symbol FileName="systemmanager_connected (2).bmp" Transparent="true" Width="50" Height="50" />
+  <Symbol FileName="wifi_disconnected.bmp" Transparent="true" Width="60" Height="60" />
+  <Symbol FileName="wifi_connected.bmp" Transparent="true" Width="70" Height="70" />
+  <Symbol FileName="people.bmp" Transparent="true" Width="60" Height="60" />
+  <Symbol FileName="people_highlighted.bmp" Transparent="true" Width="60" Height="60" />
+  <Symbol FileName="settings.bmp" Transparent="true" Width="50" Height="50" />
+  <Symbol FileName="optx2-agv (1).bmp" Transparent="false" Width="352" Height="272" />
+  <Symbol FileName="edited2.bmp" Transparent="true" Width="71" Height="70" />
+  <Symbol FileName="warning.bmp" Transparent="true" Width="87" Height="89" />
+  <Symbol FileName="estop.bmp" Transparent="true" Width="50" Height="50" />
+  <Symbol FileName="backward.bmp" Transparent="true" Width="73" Height="73" />
+  <Symbol FileName="logo_light.bmp" Transparent="true" Width="150" Height="69" />
+  <Symbol FileName="automatic.bmp" Transparent="true" Width="128" Height="128" />
+  <Symbol FileName="manual.bmp" Transparent="true" Width="128" Height="128" />
+  <Symbol FileName="semiautomatic.bmp" Transparent="true" Width="128" Height="128" />
+  <Symbol FileName="semimanual.bmp" Transparent="true" Width="128" Height="128" />
+  <Symbol FileName="touch.bmp" Transparent="true" Width="104" Height="104" />
+  <Symbol FileName="moreicon.bmp" Transparent="true" Width="60" Height="60" />
+  <Symbol FileName="canserversafestate (1).bmp" Transparent="true" Width="60" Height="60" />
+  <Symbol FileName="notinsystem_gapac.bmp" Transparent="true" Width="60" Height="60" />
+  <Symbol FileName="unknowspos (1).bmp" Transparent="true" Width="60" Height="60" />
+  <Symbol FileName="groundfault (1).bmp" Transparent="true" Width="60" Height="60" />
+  <Symbol FileName="lazer.bmp" Transparent="true" Width="50" Height="50" />
+  <Symbol FileName="drive.bmp" Transparent="true" Width="70" Height="52" />
+  <Symbol FileName="steer.bmp" Transparent="true" Width="50" Height="50" />
+  <Symbol FileName="onoff.bmp" Transparent="true" Width="70" Height="70" />
+  <Symbol FileName="lift_gapac.bmp" Transparent="true" Width="70" Height="70" />
+  <Symbol FileName="layout.bmp" Transparent="true" Width="70" Height="70" />
+  <Symbol FileName="io.bmp" Transparent="true" Width="70" Height="70" />
+  <Symbol FileName="electricity.bmp" Transparent="true" Width="64" Height="70" />
+  <Symbol FileName="radiooff (1).bmp" Transparent="true" Width="39" Height="39" />
+  <Symbol FileName="radioon (1).bmp" Transparent="true" Width="39" Height="39" />
+  <Symbol FileName="forward.bmp" Transparent="true" Width="70" Height="70" />
+  <Symbol FileName="alarms.bmp" Transparent="true" Width="50" Height="50" />
+  <Symbol FileName="connectionlost_fork3.bmp" Transparent="true" Width="800" Height="480" />
+  <Symbol FileName="connectionlost_advice.bmp" Transparent="false" Width="162" Height="203" />
+  <Symbol FileName="scrollable.bmp" Transparent="true" Width="90" Height="180" />
+  <Symbol FileName="output.bmp" Transparent="true" Width="70" Height="70" />
+  <Symbol FileName="arrow (1).bmp" Transparent="true" Width="57" Height="114" />
+  <Symbol FileName="input.bmp" Transparent="true" Width="77" Height="77" />
+  <Symbol FileName="round_touch_app_black_48pt_3x.bmp" Transparent="true" Width="50" Height="50" />
+  <Symbol FileName="radiooff.bmp" Transparent="true" Width="50" Height="50" />
+  <Symbol FileName="radioon.bmp" Transparent="true" Width="50" Height="50" />
+  <Symbol FileName="changeicon.bmp" Transparent="true" Width="50" Height="50" />
+  <Symbol FileName="vehicleinfo_gapac.bmp" Transparent="true" Width="53" Height="53" />
+  <Symbol FileName="exit.bmp" Transparent="true" Width="70" Height="70" />
+  <Symbol FileName="logo_dark.bmp" Transparent="true" Width="145" Height="60" />
+  <Symbol FileName="blurredbackground_500x300.bmp" Transparent="false" Width="800" Height="480" />
+  <Symbol FileName="blurredbackground_640x420.bmp" Transparent="false" Width="800" Height="480" />
+  <Symbol FileName="blurredbackground_640x480 (1).bmp" Transparent="false" Width="800" Height="480" />
+  <Symbol FileName="wheel_neg170.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_neg160.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_neg150.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_neg140.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_neg130.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_neg120.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_neg110.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_neg100.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_neg90.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_neg80.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_neg70.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_neg60.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_neg50.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_neg40.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_neg30.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_neg20.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_neg10.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_0.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_10.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_20.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_30.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_40.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_50.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_60.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_70.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_80.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_90.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_100.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_110.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_120.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_130.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_140.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_150.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_160.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="wheel_170.bmp" Transparent="true" Width="179" Height="178" />
+  <Symbol FileName="forksonly2.bmp" Transparent="true" Width="64" Height="50" />
+  <Symbol FileName="safteylaser.bmp" Transparent="true" Width="96" Height="54" />
+  <Symbol FileName="waypoint_0.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_5.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_10.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_15.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_20.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_25.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_30.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_35.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_40.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_45.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_50.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_55.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_60.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_65.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_70.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_75.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_80.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_85.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_90.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_95.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_100.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_105.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_110.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_115.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_120.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_125.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_130.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_135.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_140.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_145.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_150.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_155.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_160.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_165.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_170.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_175.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_180.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_185.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_190.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_195.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_200.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_205.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_210.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_215.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_220.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_225.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_230.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_235.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_240.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_245.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_250.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_255.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_260.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_265.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_270.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_275.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_280.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_285.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_290.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_295.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_300.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_305.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_310.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_315.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_320.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_325.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_330.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_335.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_340.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_345.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_350.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="waypoint_355.bmp" Transparent="true" Width="100" Height="100" />
+  <Symbol FileName="rotaryactuator.bmp" Transparent="true" Width="48" Height="34" />
+  <Symbol FileName="rfid_pic.bmp" Transparent="true" Width="80" Height="80" />
+  <Symbol FileName="silencehorn.bmp" Transparent="true" Width="80" Height="80" />
+</Symbols>

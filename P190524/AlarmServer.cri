@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="AlarmServer.Default_00155" TargetProperty="Value" Source="Tags.CanServerSafeState" />
+        <Item Target="AlarmServer.Default_00229" TargetProperty="Value" Source="Tags.GroundFault" />
+        <Item Target="AlarmServer.Default_00003" TargetProperty="Value" Source="Tags.NotInSystem" />
+        <Item Target="AlarmServer.Default_00218" TargetProperty="Value" Source="Tags.UnknownPosition" />
+        <Item Target="AlarmServer.Default_00005" TargetProperty="Value" Source="Tags.SysMan_Connection" />
+        <Item Target="AlarmServer.Default_00006" TargetProperty="Value" Source="Tags.WIFI_Connection" />
+        <Item Target="AlarmServer.Default_10024" TargetProperty="Value" Source="Tags.AutoLoadFail" />
+        <Item Target="AlarmServer.Default_10024.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.AutoLoadFailCode" />
+        <Item Target="AlarmServer.Default_10043" TargetProperty="Value" Source="Tags.OutSafeZone" />
+        <Item Target="AlarmServer.Default_10023" TargetProperty="Value" Source="Tags.ChargeFailure" />
+        <Item Target="AlarmServer.Default_10019" TargetProperty="Value" Source="Tags.BadEncoderFeedBack" />
+        <Item Target="AlarmServer.Default_10019.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.BadEncoderNumber" />
+        <Item Target="AlarmServer.Default_10020" TargetProperty="Value" Source="Tags.ForkVariance" />
+        <Item Target="AlarmServer.Default_10020.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.BadFork" />
+        <Item Target="AlarmServer.Default_10029" TargetProperty="Value" Source="Tags.ForksNotSynced" />
+        <Item Target="AlarmServer.Default_10029.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.BadFork" />
+        <Item Target="AlarmServer.Default_10029.DynamicString.DynamicItem1" TargetProperty="Value" Source="Tags.BadProx" />
+        <Item Target="AlarmServer.Default_10042" TargetProperty="Value" Source="Tags.SideShiftTO" />
+        <Item Target="AlarmServer.Default_10021" TargetProperty="Value" Source="Tags.LiftTimeOut" />
+        <Item Target="AlarmServer.Default_10021.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.LiftHeightTarget" />
+        <Item Target="AlarmServer.Default_10026" TargetProperty="Value" Source="Tags.DroppedLoadError" />
+        <Item Target="AlarmServer.Default_10039" TargetProperty="Value" Source="Tags.CAN_EMCY" />
+        <Item Target="AlarmServer.Default_10039.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.CAN_EMCY_Node" />
+        <Item Target="AlarmServer.Default_10039.DynamicString.DynamicItem1" TargetProperty="Value" Source="Tags.CAN_EMCY_Code" />
+        <Item Target="AlarmServer.Default_10030" TargetProperty="Value" Source="Tags.Mismatched_Prox" />
+        <Item Target="AlarmServer.Default_10030.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.BadProx" />
+        <Item Target="AlarmServer.Default_10036" TargetProperty="Value" Source="Tags.TooFewReflectors" />
+        <Item Target="AlarmServer.Default_10041" TargetProperty="Value" Source="Tags.ExtendedSignal" />
+        <Item Target="AlarmServer.Default_10041.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.ExtendedSensor" />
+        <Item Target="AlarmServer.Default_10044" TargetProperty="Value" Source="Tags.AllOk" />
+        <Item Target="AlarmServer.Default_10032" TargetProperty="Value" Source="Tags.ChargeActuatorTO" />
+        <Item Target="AlarmServer.Default_10031" TargetProperty="Value" Source="Tags.PneumaticTO" />
+        <Item Target="AlarmServer.Default_10031.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.Transucer" />
+        <Item Target="AlarmServer.Default_10031.DynamicString.DynamicItem1" TargetProperty="Value" Source="Tags.TargetPSI" />
+        <Item Target="AlarmServer.Default_10045" TargetProperty="Value" Source="Tags.WirelessRemoteLost" />
+        <Item Target="AlarmServer.Default_10048" TargetProperty="Value" Source="Tags.LoadGripperFailure" />
+        <Item Target="AlarmServer.Default_10048.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.LoadGripperFailureID" />
+        <Item Target="AlarmServer.Default_10047" TargetProperty="Value" Source="Tags.HydraulicOverPressure" />
+        <Item Target="AlarmServer.Default_10047.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.HydraulicAction" />
+        <Item Target="AlarmServer.Default_10047.DynamicString.DynamicItem1" TargetProperty="Value" Source="Tags.OverPressureValue" />
+        <Item Target="AlarmServer.Default_10049" TargetProperty="Value" Source="Tags.ClampTimeout" />
+        <Item Target="AlarmServer.Default_10050" TargetProperty="Value" Source="Tags.CVRedundantMismatch" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="AlarmServer.Script.cs" Source="Tags.RequestInfo" />
+        <Item Target="AlarmServer.Script.cs" Source="Tags.AlarmTitle" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item Target="AlarmServer.Default_00155" TargetProperty="Value" Source="Tags.CanServerSafeState" />
+        <Item Target="AlarmServer.Default_00229" TargetProperty="Value" Source="Tags.GroundFault" />
+        <Item Target="AlarmServer.Default_00003" TargetProperty="Value" Source="Tags.NotInSystem" />
+        <Item Target="AlarmServer.Default_00218" TargetProperty="Value" Source="Tags.UnknownPosition" />
+        <Item Target="AlarmServer.Default_00005" TargetProperty="Value" Source="Tags.SysMan_Connection" />
+        <Item Target="AlarmServer.Default_00006" TargetProperty="Value" Source="Tags.WIFI_Connection" />
+        <Item Target="AlarmServer.Default_10024" TargetProperty="Value" Source="Tags.AutoLoadFail" />
+        <Item Target="AlarmServer.Default_10024.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.AutoLoadFailCode" />
+        <Item Target="AlarmServer.Default_10043" TargetProperty="Value" Source="Tags.OutSafeZone" />
+        <Item Target="AlarmServer.Default_10023" TargetProperty="Value" Source="Tags.ChargeFailure" />
+        <Item Target="AlarmServer.Default_10019" TargetProperty="Value" Source="Tags.BadEncoderFeedBack" />
+        <Item Target="AlarmServer.Default_10019.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.BadEncoderNumber" />
+        <Item Target="AlarmServer.Default_10020" TargetProperty="Value" Source="Tags.ForkVariance" />
+        <Item Target="AlarmServer.Default_10020.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.BadFork" />
+        <Item Target="AlarmServer.Default_10029" TargetProperty="Value" Source="Tags.ForksNotSynced" />
+        <Item Target="AlarmServer.Default_10029.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.BadFork" />
+        <Item Target="AlarmServer.Default_10029.DynamicString.DynamicItem1" TargetProperty="Value" Source="Tags.BadProx" />
+        <Item Target="AlarmServer.Default_10042" TargetProperty="Value" Source="Tags.SideShiftTO" />
+        <Item Target="AlarmServer.Default_10021" TargetProperty="Value" Source="Tags.LiftTimeOut" />
+        <Item Target="AlarmServer.Default_10021.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.LiftHeightTarget" />
+        <Item Target="AlarmServer.Default_10026" TargetProperty="Value" Source="Tags.DroppedLoadError" />
+        <Item Target="AlarmServer.Default_10039" TargetProperty="Value" Source="Tags.CAN_EMCY" />
+        <Item Target="AlarmServer.Default_10039.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.CAN_EMCY_Node" />
+        <Item Target="AlarmServer.Default_10039.DynamicString.DynamicItem1" TargetProperty="Value" Source="Tags.CAN_EMCY_Code" />
+        <Item Target="AlarmServer.Default_10030" TargetProperty="Value" Source="Tags.Mismatched_Prox" />
+        <Item Target="AlarmServer.Default_10030.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.BadProx" />
+        <Item Target="AlarmServer.Default_10036" TargetProperty="Value" Source="Tags.TooFewReflectors" />
+        <Item Target="AlarmServer.Default_10041" TargetProperty="Value" Source="Tags.ExtendedSignal" />
+        <Item Target="AlarmServer.Default_10041.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.ExtendedSensor" />
+        <Item Target="AlarmServer.Default_10044" TargetProperty="Value" Source="Tags.AllOk" />
+        <Item Target="AlarmServer.Default_10032" TargetProperty="Value" Source="Tags.ChargeActuatorTO" />
+        <Item Target="AlarmServer.Default_10031" TargetProperty="Value" Source="Tags.PneumaticTO" />
+        <Item Target="AlarmServer.Default_10031.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.Transucer" />
+        <Item Target="AlarmServer.Default_10031.DynamicString.DynamicItem1" TargetProperty="Value" Source="Tags.TargetPSI" />
+        <Item Target="AlarmServer.Default_10045" TargetProperty="Value" Source="Tags.WirelessRemoteLost" />
+        <Item Target="AlarmServer.Default_10048" TargetProperty="Value" Source="Tags.LoadGripperFailure" />
+        <Item Target="AlarmServer.Default_10048.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.LoadGripperFailureID" />
+        <Item Target="AlarmServer.Default_10047" TargetProperty="Value" Source="Tags.HydraulicOverPressure" />
+        <Item Target="AlarmServer.Default_10047.DynamicString.DynamicItem0" TargetProperty="Value" Source="Tags.HydraulicAction" />
+        <Item Target="AlarmServer.Default_10047.DynamicString.DynamicItem1" TargetProperty="Value" Source="Tags.OverPressureValue" />
+        <Item Target="AlarmServer.Default_10049" TargetProperty="Value" Source="Tags.ClampTimeout" />
+        <Item Target="AlarmServer.Default_10050" TargetProperty="Value" Source="Tags.CVRedundantMismatch" />
+      </Items>
+    </Category>
+  </Categories>
+</CrossReferences>

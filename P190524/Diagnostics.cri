@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="Diagnostics.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Diagnostics.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Diagnostics.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Diagnostics.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Diagnostics.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Diagnostics.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Diagnostics.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Diagnostics.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Diagnostics.Text11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Diagnostics.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Diagnostics.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Diagnostics.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Diagnostics.MultiPicture" TargetProperty="Actions" Source="Tags.DigitalOutput20" Event="MouseDown" Action="Toggle Tag" Param="" />
+        <Item Target="Diagnostics.MultiPicture" TargetProperty="Value" Source="Tags.DigitalOutput20" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Diagnostics.Picture1" TargetProperty="Actions" Source="wifi" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Diagnostics.Picture2" TargetProperty="Actions" Source="Layout" Event="MouseDown" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="Diagnostics.Picture3" TargetProperty="Actions" Source="LiftDiagnostics" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Diagnostics.Picture5" TargetProperty="Actions" Source="IO_Explorer" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Diagnostics.Picture9" TargetProperty="Actions" Source="DriveDiagnostics1" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Diagnostics.Text10" TargetProperty="Actions" Source="AGVStats" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Diagnostics.Picture8" TargetProperty="Actions" Source="PowerDiagnostics" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Diagnostics.Picture6" TargetProperty="Actions" Source="DriveDiagnostics2" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Diagnostics.Picture7" TargetProperty="Actions" Source="RFIDDiagnostics" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="3">
+          <ScreenName>Diagnostics</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>63</ObjectsCount>
+          <ScreenName>Diagnostics</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Diagnostics.MultiPicture" TargetProperty="Actions" Source="Tags.DigitalOutput20" Event="MouseDown" Action="Toggle Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="Diagnostics.Picture" Source="diag (1)" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Diagnostics.Picture1" Source="wifi_connected" Width="70" Height="69" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Diagnostics.Picture2" Source="layout" Width="70" Height="69" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Diagnostics.Picture3" Source="lift_gapac" Width="70" Height="69" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Diagnostics.Picture5" Source="io" Width="70" Height="69" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Diagnostics.Picture9" Source="drive" Width="70" Height="69" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Diagnostics.Picture8" Source="electricity" Width="65" Height="70" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Diagnostics.Picture6" Source="drive" Width="70" Height="69" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Diagnostics.Picture7" Source="rfid_pic" Width="80" Height="80" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Diagnostics.MultiPicture" Source="silencehorn_2" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Diagnostics.MultiPicture" Source="silencehorn_2" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Diagnostics.MultiPicture" Source="silencehorn" Width="100" Height="100" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

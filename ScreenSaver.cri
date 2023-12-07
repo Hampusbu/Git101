@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="ScreenSaver.Group5.Text19" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ScreenSaver.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ScreenSaver.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ScreenSaver.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ScreenSaver.BlockedID" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="ScreenSaver.MultiPicture1" TargetProperty="Value" Source="Tags.OperationMode" />
+        <Item Target="ScreenSaver.Picture1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.MenusAccesible" />
+        <Item Target="ScreenSaver.Picture3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.AnyAlarmActive" />
+        <Item Target="ScreenSaver.Group5" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.AnyAlarmActive" />
+        <Item Target="ScreenSaver.Group5.Text19" TargetProperty="Value" Source="Tags.AlarmsActive" />
+        <Item Target="ScreenSaver.Picture11" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.RearScannerWarningField" />
+        <Item Target="ScreenSaver.Picture10" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.FrontScannerWarningField" />
+        <Item Target="ScreenSaver.Picture8" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.RearScannerStopField" />
+        <Item Target="ScreenSaver.Picture7" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.FrontScannerStopField" />
+        <Item Target="ScreenSaver.Picture4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.EStopActive" />
+        <Item Target="ScreenSaver.Picture13" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.EStopActive" />
+        <Item Target="ScreenSaver.Picture14" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.EStopActive" />
+        <Item Target="ScreenSaver.Picture15" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.EStopActive" />
+        <Item Target="ScreenSaver.Text4" TargetProperty="Text" Source="Tags.StopWord" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="ScreenSaver.Picture1" TargetProperty="Actions" Source="Home" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="ScreenSaver.Group5" TargetProperty="Actions" Source="Alarms" Event="PreviewMouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="ScreenSaver.Picture5" TargetProperty="Actions" Source="Home" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="0">
+          <ScreenName>ScreenSaver</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>21</ObjectsCount>
+          <ScreenName>ScreenSaver</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="ScreenSaver.Script.cs" Source="Tags.ToggleScreenSaver" />
+        <Item Target="ScreenSaver.Script.cs" Source="Tags.UpdateValuesFromCVC" />
+        <Item Target="ScreenSaver.Script.cs" Source="Tags.EncoderCalibrateOn" />
+        <Item Target="ScreenSaver.Script.cs" Source="Tags.SpeedCalibrateOn" />
+        <Item Target="ScreenSaver.Script.cs" Source="Tags.LaserCalibrateOn" />
+        <Item Target="ScreenSaver.Script.cs" Source="Tags.BlockedStatus" />
+        <Item Target="ScreenSaver.Script.cs" Source="Tags.BlockingID" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="ScreenSaver.Picture" Source="logo_light" Width="150" Height="69" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSaver.MultiPicture1" Source="automatic" Width="128" Height="128" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSaver.MultiPicture1" Source="automatic" Width="128" Height="128" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSaver.MultiPicture1" Source="manual" Width="128" Height="128" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSaver.MultiPicture1" Source="semiautomatic" Width="128" Height="128" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSaver.MultiPicture1" Source="semimanual" Width="128" Height="128" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSaver.Picture1" Source="touch" Width="104" Height="104" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSaver.Picture3" Source="allokey" Width="128" Height="128" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSaver.Group5.Picture6" Source="warning3" Width="109" Height="108" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSaver.Group5.Picture2" Source="warningbackground (1)" Width="125" Height="125" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSaver.Picture11" Source="warning" Width="88" Height="89" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSaver.Picture10" Source="warning" Width="88" Height="89" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSaver.Picture8" Source="edited2" Width="71" Height="70" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSaver.Picture7" Source="edited2" Width="71" Height="70" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSaver.Picture4" Source="estop" Width="40" Height="40" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSaver.Picture5" Source="optx2-agv (1)" Width="352" Height="236" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSaver.Picture13" Source="estop" Width="40" Height="40" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSaver.Picture14" Source="estop" Width="40" Height="40" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSaver.Picture15" Source="estop" Width="40" Height="40" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items>
+        <Item xsi:type="TextLibraryItem" Target="ScreenSaver.Text4" TargetProperty="Text" Source="StopConditions" />
+      </Items>
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

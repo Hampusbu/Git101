@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="WheelVisuals.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WheelVisuals.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WheelVisuals.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WheelVisuals.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WheelVisuals.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WheelVisuals.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="WheelVisuals.MultiPicture" TargetProperty="Value" Source="Tags.ActualAngle2" />
+        <Item Target="WheelVisuals.MultiPicture1" TargetProperty="Value" Source="Tags.ActualAngle" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>WheelVisuals</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>49</ObjectsCount>
+          <ScreenName>WheelVisuals</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_neg170" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_neg170" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_neg160" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_neg150" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_neg140" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_neg130" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_neg120" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_neg110" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_neg100" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_neg90" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_neg80" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_neg70" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_neg60" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_neg50" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_neg40" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_neg30" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_neg20" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_neg10" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_0" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_0" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_10" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_20" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_30" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_40" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_50" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_60" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_70" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_80" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_90" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_100" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_110" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_120" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_130" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_140" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_150" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_160" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture" Source="wheel_170" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.Picture" Source="steer" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_neg170" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_neg170" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_neg160" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_neg150" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_neg140" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_neg130" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_neg120" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_neg110" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_neg100" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_neg90" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_neg80" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_neg70" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_neg60" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_neg50" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_neg40" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_neg30" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_neg20" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_neg10" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_0" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_0" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_10" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_20" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_30" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_40" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_50" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_60" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_70" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_80" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_90" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_100" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_110" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_120" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_130" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_140" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_150" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_160" Width="179" Height="177" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WheelVisuals.MultiPicture1" Source="wheel_170" Width="179" Height="177" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

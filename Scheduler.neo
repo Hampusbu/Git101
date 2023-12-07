@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.Scheduler.Scheduler, ToolsCF, Version=2.40.2006.0, Culture=neutral, PublicKeyToken=null" d1p1:Site.Name="Scheduler" ProjectGuid="fb9bcac8-b4b2-4588-a993-ed2b7bb72767">
+    <SchedulerJobs>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Scheduler.SchedulerJob, ToolsCF, Version=2.40.2006.0, Culture=neutral, PublicKeyToken=null" Start="08/28/2018 16:00:00" Stop="08/28/2018 15:03:12" Duration="00:00:05" Period="Once" StopTimeEnabled="False" Name="SchedulerJob1" d1p1:Site.Name="SchedulerJob1" ActionName="Set Tag" ProjectGuid="fb9bcac8-b4b2-4588-a993-ed2b7bb72767">
+        <Action>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.Action, Tools, Version=2.40.2006.0, Culture=neutral, PublicKeyToken=null" Name="Set Tag">
+            <ActionMethodInfo>
+              <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ActionMethodInfo, Tools, Version=2.40.2006.0, Culture=neutral, PublicKeyToken=null" Name="SetTag" ObjectName="Tags.NewTest" EventName="Activated" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </ActionMethodInfo>
+          </Object>
+        </Action>
+        <Events>
+          <Event Name="Deactivated" EventHandler="SchedulerJob1_Deactivated" />
+        </Events>
+      </Object>
+    </SchedulerJobs>
+  </Object>
+</NeoItem>

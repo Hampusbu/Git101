@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="LiftParameters.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiftParameters.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiftParameters.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiftParameters.LiftScale1Old" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiftParameters.Offset1Old" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiftParameters.Modify" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiftParameters.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiftParameters.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiftParameters.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiftParameters.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiftParameters.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiftParameters.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiftParameters.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="LiftParameters.AnalogNumeric2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="LiftParameters.Text10" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LiftCalibrateOn" />
+        <Item Target="LiftParameters.LiftScale1Old" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LiftCalibrateOn" />
+        <Item Target="LiftParameters.Offset1Old" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LiftCalibrateOn" />
+        <Item xsi:type="ActionItem" Target="LiftParameters.Modify" TargetProperty="Actions" Source="Tags.LiftCalibrateOn" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="LiftParameters.Modify" TargetProperty="TextValue" Source="Tags.SpeedCalibrateOn" />
+        <Item Target="LiftParameters.AnalogNumeric" TargetProperty="Value" Source="Tags.EncoderScalingLift1" />
+        <Item Target="LiftParameters.AnalogNumeric" TargetProperty="IsReadOnly" Source="Tags.LiftCalibrateOn" />
+        <Item Target="LiftParameters.AnalogNumeric1" TargetProperty="Value" Source="Tags.LiftEncoder1Offset" />
+        <Item Target="LiftParameters.AnalogNumeric1" TargetProperty="IsReadOnly" Source="Tags.LiftCalibrateOn" />
+        <Item Target="LiftParameters.AnalogNumeric2" TargetProperty="Value" Source="Tags.Lift1Height" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>LiftParameters</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>56</ObjectsCount>
+          <ScreenName>LiftParameters</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="LiftParameters.Script.cs" Source="Tags.EncoderScalingLift1" />
+        <Item Target="LiftParameters.Script.cs" Source="Tags.LiftEncoder1Offset" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="LiftParameters.Modify" TargetProperty="Actions" Source="Tags.LiftCalibrateOn" Event="Click" Action="Toggle Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="LiftParameters.Picture" Source="lift_gapac" Width="50" Height="50" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

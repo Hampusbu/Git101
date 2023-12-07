@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="DriveParameters1.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DriveParameters1.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DriveParameters1.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DriveParameters1.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DriveParameters1.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DriveParameters1.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DriveParameters1.AnalogNumeric2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DriveParameters1.Modify" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DriveParameters1.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DriveParameters1.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DriveParameters1.EncScaleOld" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DriveParameters1.StopOld" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DriveParameters1.MaxSpeedOld" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DriveParameters1.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DriveParameters1.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DriveParameters1.AnalogNumeric3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DriveParameters1.Text11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DriveParameters1.Text12" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="DriveParameters1.AnalogNumeric" TargetProperty="Value" Source="Tags.EncoderScalingDrive1" />
+        <Item Target="DriveParameters1.AnalogNumeric" TargetProperty="IsReadOnly" Source="Tags.SpeedCalibrateOn" />
+        <Item Target="DriveParameters1.AnalogNumeric1" TargetProperty="Value" Source="Tags.SpeedStopTolerance" />
+        <Item Target="DriveParameters1.AnalogNumeric1" TargetProperty="IsReadOnly" Source="Tags.SpeedCalibrateOn" />
+        <Item Target="DriveParameters1.AnalogNumeric2" TargetProperty="Value" Source="Tags.MaxSpeed" />
+        <Item Target="DriveParameters1.AnalogNumeric2" TargetProperty="IsReadOnly" Source="Tags.SpeedCalibrateOn" />
+        <Item xsi:type="ActionItem" Target="DriveParameters1.Modify" TargetProperty="Actions" Source="Tags.SpeedCalibrateOn" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="DriveParameters1.Modify" TargetProperty="TextValue" Source="Tags.SpeedCalibrateOn" />
+        <Item Target="DriveParameters1.EncScaleOld" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.SpeedCalibrateOn" />
+        <Item Target="DriveParameters1.StopOld" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.SpeedCalibrateOn" />
+        <Item Target="DriveParameters1.MaxSpeedOld" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.SpeedCalibrateOn" />
+        <Item Target="DriveParameters1.Text10" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.SpeedCalibrateOn" />
+        <Item Target="DriveParameters1.AnalogNumeric3" TargetProperty="Value" Source="Tags.EncoderDistance" />
+        <Item xsi:type="ActionItem" Target="DriveParameters1" TargetProperty="Actions" Source="Tags.SpeedCalibrateOn" Event="Closed" Action="Reset Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="DriveParameters1.Picture1" TargetProperty="Actions" Source="DriveParameters2" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>DriveParameters1</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>61</ObjectsCount>
+          <ScreenName>DriveParameters1</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="DriveParameters1.Script.cs" Source="Tags.SpeedStopTolerance" />
+        <Item Target="DriveParameters1.Script.cs" Source="Tags.MaxSpeed" />
+        <Item Target="DriveParameters1.Script.cs" Source="Tags.EncoderScalingDrive1" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="DriveParameters1.Modify" TargetProperty="Actions" Source="Tags.SpeedCalibrateOn" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="DriveParameters1" TargetProperty="Actions" Source="Tags.SpeedCalibrateOn" Event="Closed" Action="Reset Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="DriveParameters1.Picture" Source="drive" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DriveParameters1.Picture1" Source="forward" Width="70" Height="69" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

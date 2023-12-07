@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="OutputExplorer1.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="OutputExplorer1.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="OutputExplorer1.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="OutputExplorer1.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="OutputExplorer1.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="OutputExplorer1.Button5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="OutputExplorer1.Button6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="OutputExplorer1.Button7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="OutputExplorer1.Button8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="OutputExplorer1.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="OutputExplorer1.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="OutputExplorer1.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="OutputExplorer1.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="OutputExplorer1.Button4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="OutputExplorer1.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="OutputExplorer1.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="OutputExplorer1.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="OutputExplorer1.Picture3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.IOForceMode" />
+        <Item xsi:type="ActionItem" Target="OutputExplorer1.Button" TargetProperty="Actions" Source="Tags.IOForceMode" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="OutputExplorer1.Button" TargetProperty="TextValue" Source="Tags.IOForceMode" />
+        <Item Target="OutputExplorer1.Button" TargetProperty="Background" Source="Tags.IOForceMode" />
+        <Item Target="OutputExplorer1.MultiPicture" TargetProperty="Value" Source="Tags.DigitalOutput1" />
+        <Item Target="OutputExplorer1.MultiPicture1" TargetProperty="Value" Source="Tags.DigitalOutput2" />
+        <Item Target="OutputExplorer1.MultiPicture2" TargetProperty="Value" Source="Tags.DigitalOutput3" />
+        <Item Target="OutputExplorer1.MultiPicture3" TargetProperty="Value" Source="Tags.DigitalOutput4" />
+        <Item xsi:type="ActionItem" Target="OutputExplorer1.Button5" TargetProperty="Actions" Source="Tags.OutputChanger" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="OutputExplorer1.Button5" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.IOForceMode" />
+        <Item xsi:type="ActionItem" Target="OutputExplorer1.Button6" TargetProperty="Actions" Source="Tags.OutputChanger" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="OutputExplorer1.Button6" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.IOForceMode" />
+        <Item xsi:type="ActionItem" Target="OutputExplorer1.Button7" TargetProperty="Actions" Source="Tags.OutputChanger" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="OutputExplorer1.Button7" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.IOForceMode" />
+        <Item xsi:type="ActionItem" Target="OutputExplorer1.Button8" TargetProperty="Actions" Source="Tags.OutputChanger" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="OutputExplorer1.Button8" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.IOForceMode" />
+        <Item Target="OutputExplorer1.MultiPicture8" TargetProperty="Value" Source="Tags.DigitalOutput5" />
+        <Item xsi:type="ActionItem" Target="OutputExplorer1.Button1" TargetProperty="Actions" Source="Tags.OutputChanger" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="OutputExplorer1.Button1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.IOForceMode" />
+        <Item Target="OutputExplorer1.MultiPicture5" TargetProperty="Value" Source="Tags.DigitalOutput7" />
+        <Item xsi:type="ActionItem" Target="OutputExplorer1.Button2" TargetProperty="Actions" Source="Tags.OutputChanger" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="OutputExplorer1.Button2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.IOForceMode" />
+        <Item Target="OutputExplorer1.MultiPicture7" TargetProperty="Value" Source="Tags.DigitalOutput8" />
+        <Item xsi:type="ActionItem" Target="OutputExplorer1.Button4" TargetProperty="Actions" Source="Tags.OutputChanger" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="OutputExplorer1.Button4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.IOForceMode" />
+        <Item xsi:type="ActionItem" Target="OutputExplorer1.Button3" TargetProperty="Actions" Source="Tags.OutputChanger" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="OutputExplorer1.Button3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.IOForceMode" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="OutputExplorer1.Picture3" TargetProperty="Actions" Source="IOHelpScreen" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>OutputExplorer1</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>68</ObjectsCount>
+          <ScreenName>OutputExplorer1</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="OutputExplorer1.Button" TargetProperty="Actions" Source="Tags.IOForceMode" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="OutputExplorer1.Button5" TargetProperty="Actions" Source="Tags.OutputChanger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="OutputExplorer1.Button6" TargetProperty="Actions" Source="Tags.OutputChanger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="OutputExplorer1.Button7" TargetProperty="Actions" Source="Tags.OutputChanger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="OutputExplorer1.Button8" TargetProperty="Actions" Source="Tags.OutputChanger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="OutputExplorer1.Button1" TargetProperty="Actions" Source="Tags.OutputChanger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="OutputExplorer1.Button2" TargetProperty="Actions" Source="Tags.OutputChanger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="OutputExplorer1.Button4" TargetProperty="Actions" Source="Tags.OutputChanger" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="OutputExplorer1.Button3" TargetProperty="Actions" Source="Tags.OutputChanger" Event="Click" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.Picture" Source="output" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.Picture3" Source="round_touch_app_black_48pt_3x" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture" Source="radioon" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture1" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture1" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture1" Source="radioon" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture2" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture2" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture2" Source="radioon" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture3" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture3" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture3" Source="radioon" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.Button5" Source="changeicon" Width="40" Height="40" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.Button6" Source="changeicon" Width="40" Height="40" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.Button7" Source="changeicon" Width="40" Height="40" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.Button8" Source="changeicon" Width="40" Height="40" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture8" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture8" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture8" Source="radioon" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.Button1" Source="changeicon" Width="40" Height="40" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture5" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture5" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture5" Source="radioon" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.Button2" Source="changeicon" Width="40" Height="40" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture7" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture7" Source="radiooff" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.MultiPicture7" Source="radioon" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.Button4" Source="changeicon" Width="40" Height="40" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OutputExplorer1.Button3" Source="changeicon" Width="40" Height="40" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

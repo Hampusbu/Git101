@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="HomeScreenInfo.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HomeScreenInfo.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HomeScreenInfo.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HomeScreenInfo.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HomeScreenInfo.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HomeScreenInfo.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HomeScreenInfo.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HomeScreenInfo.AlarmInfo" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HomeScreenInfo.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HomeScreenInfo.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HomeScreenInfo.Text12" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HomeScreenInfo.Text13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HomeScreenInfo.Text14" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HomeScreenInfo.Group.Text19" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="HomeScreenInfo.Text8" TargetProperty="Value" Source="Tags.WIFI_Connection" />
+        <Item Target="HomeScreenInfo.Text10" TargetProperty="Value" Source="Tags.SysMan_Connection" />
+        <Item Target="HomeScreenInfo.Text14" TargetProperty="Value" Source="Tags.SystemTagCurrentUser" />
+        <Item Target="HomeScreenInfo.MultiPicture1" TargetProperty="Value" Source="Tags.WIFI_Connection" />
+        <Item Target="HomeScreenInfo.MultiPicture" TargetProperty="Value" Source="Tags.SysMan_Connection" />
+        <Item Target="HomeScreenInfo.Group.Text19" TargetProperty="Value" Source="Tags.AlarmsActive" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="HomeScreenInfo.Group" TargetProperty="Actions" Source="Alarms" Event="PreviewMouseDown" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>HomeScreenInfo</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>30</ObjectsCount>
+          <ScreenName>HomeScreenInfo</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="HomeScreenInfo.Script.cs" Source="Tags.AlarmsActive" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="HomeScreenInfo.Picture" Source="moreicon" Width="43" Height="42" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="HomeScreenInfo.Picture1" Source="canserversafestate (1)" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="HomeScreenInfo.Picture2" Source="notinsystem_gapac" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="HomeScreenInfo.Picture3" Source="unknowspos (1)" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="HomeScreenInfo.Picture4" Source="groundfault (1)" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="HomeScreenInfo.Picture5" Source="allokey" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="HomeScreenInfo.Picture6" Source="estop" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="HomeScreenInfo.Picture13" Source="people_logout" Width="62" Height="62" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="HomeScreenInfo.Picture12" Source="people" Width="60" Height="60" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="HomeScreenInfo.MultiPicture1" Source="wifi_disconnected" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="HomeScreenInfo.MultiPicture1" Source="wifi_disconnected" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="HomeScreenInfo.MultiPicture1" Source="wifi_connected" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="HomeScreenInfo.MultiPicture" Source="systemmanager_disconnected (2)" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="HomeScreenInfo.MultiPicture" Source="systemmanager_disconnected (2)" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="HomeScreenInfo.MultiPicture" Source="systemmanager_connected (2)" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="HomeScreenInfo.Group.Picture8" Source="warning3" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="HomeScreenInfo.Group.Picture7" Source="warningbackground (1)" Width="60" Height="60" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

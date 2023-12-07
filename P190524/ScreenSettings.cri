@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="ScreenSettings.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ScreenSettings.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ScreenSettings.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ScreenSettings.Slider" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ScreenSettings.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ScreenSettings.TouchComboBox" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ScreenSettings.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ScreenSettings.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="ScreenSettings.Slider" TargetProperty="Value" Source="Tags.SystemTagBacklightBrightnessLevel" />
+        <Item Target="ScreenSettings.TouchComboBox" TargetProperty="Value" Source="Tags.InactivityTimeout" />
+        <Item xsi:type="ActionItem" Target="ScreenSettings.MultiPicture1" TargetProperty="Actions" Source="Tags.DisableLockscreen" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item Target="ScreenSettings.MultiPicture1" TargetProperty="Value" Source="Tags.DisableLockscreen" />
+        <Item xsi:type="ActionItem" Target="ScreenSettings.Text10" TargetProperty="Actions" Source="Tags.DisableLockscreen" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="ScreenSettings.MultiPicture" TargetProperty="Actions" Source="Tags.DisableLockscreen" Event="MouseDown" Action="Reset Tag" Param="" />
+        <Item Target="ScreenSettings.MultiPicture" TargetProperty="Value" Source="Tags.DisableLockscreen" />
+        <Item xsi:type="ActionItem" Target="ScreenSettings.Text4" TargetProperty="Actions" Source="Tags.DisableLockscreen" Event="MouseDown" Action="Reset Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="ScreenSettings.Slider" Source="ScreenSettings.m_Slider.bmp" />
+        <Item Target="ScreenSettings.TouchComboBox" Source="ScreenSettings.m_TouchComboBox.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>ScreenSettings</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>15</ObjectsCount>
+          <ScreenName>ScreenSettings</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="ScreenSettings.MultiPicture1" TargetProperty="Actions" Source="Tags.DisableLockscreen" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="ScreenSettings.Text10" TargetProperty="Actions" Source="Tags.DisableLockscreen" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="ScreenSettings.MultiPicture" TargetProperty="Actions" Source="Tags.DisableLockscreen" Event="MouseDown" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="ScreenSettings.Text4" TargetProperty="Actions" Source="Tags.DisableLockscreen" Event="MouseDown" Action="Reset Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="ScreenSettings.Picture" Source="settings" Width="50" Height="50" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSettings.MultiPicture1" Source="radiooff (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSettings.MultiPicture1" Source="radiooff (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSettings.MultiPicture1" Source="radioon (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSettings.MultiPicture" Source="radioon (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSettings.MultiPicture" Source="radioon (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="ScreenSettings.MultiPicture" Source="radiooff (1)" Width="39" Height="39" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

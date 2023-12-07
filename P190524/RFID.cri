@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="RFID.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RFID.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RFID.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RFID.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RFID.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RFID.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RFID.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RFID.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="RFID.AnalogNumeric" TargetProperty="Value" Source="Tags.Trunk1" />
+        <Item Target="RFID.AnalogNumeric1" TargetProperty="Value" Source="Tags.Trunk2" />
+        <Item xsi:type="ActionItem" Target="RFID.MultiPicture" TargetProperty="Actions" Source="Tags.SetTrunkValue" Event="MouseDown" Action="Set Analog" Param="" />
+        <Item Target="RFID.MultiPicture" TargetProperty="Value" Source="Tags.SetTrunkValue" />
+        <Item xsi:type="ActionItem" Target="RFID.MultiPicture1" TargetProperty="Actions" Source="Tags.SetTrunkValue" Event="MouseDown" Action="Set Analog" Param="" />
+        <Item Target="RFID.MultiPicture1" TargetProperty="Value" Source="Tags.SetTrunkValue" />
+        <Item Target="RFID.Text4" TargetProperty="Value" Source="Tags.SetTrunkValue" />
+        <Item xsi:type="ActionItem" Target="RFID.Button" TargetProperty="Actions" Source="Tags.GetTrunkValue" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="RFID.Button" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.SetTrunkValue" />
+        <Item Target="RFID.SymbolViewbox" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.GetTrunkValue" />
+        <Item xsi:type="ActionItem" Target="RFID.Button2" TargetProperty="Actions" Source="Tags.GetTrunkValue" Event="Click" Action="Set Tag" Param="" />
+        <Item Target="RFID.Button2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.SetTrunkValue" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="RFID.SymbolViewbox" Source="RFID.m_SymbolViewbox.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="RFID.Picture7" TargetProperty="Actions" Source="RFIDDiagnostics" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>RFID</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>53</ObjectsCount>
+          <ScreenName>RFID</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="RFID.Script.cs" Source="Tags.GetTrunkValue" />
+        <Item Target="RFID.Script.cs" Source="Tags.SetTrunkValue" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="RFID.MultiPicture" TargetProperty="Actions" Source="Tags.SetTrunkValue" Event="MouseDown" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="RFID.MultiPicture1" TargetProperty="Actions" Source="Tags.SetTrunkValue" Event="MouseDown" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="RFID.Button" TargetProperty="Actions" Source="Tags.GetTrunkValue" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="RFID.Button2" TargetProperty="Actions" Source="Tags.GetTrunkValue" Event="Click" Action="Set Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="RFID.MultiPicture" Source="radiooff (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="RFID.MultiPicture" Source="radiooff (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="RFID.MultiPicture" Source="radioon (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="RFID.MultiPicture" Source="radiooff (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="RFID.MultiPicture1" Source="radiooff (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="RFID.MultiPicture1" Source="radiooff (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="RFID.MultiPicture1" Source="radioon (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="RFID.Picture7" Source="rfid_pic" Width="70" Height="70" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>
