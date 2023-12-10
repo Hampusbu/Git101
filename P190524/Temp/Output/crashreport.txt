@@ -1,0 +1,21 @@
+Crash report
+
+23-10-16 11:01:12
+Terminal: fe80::3fc9:5308:f5bb:8673%79, fe80::8d41:2728:2509:6bf2%9, fe80::84f8:9ec1:d3a4:9a4f%20, fe80::1da0:328b:1d96:de3d%17, fe80::3aee:96b8:eb39:bdf0%7, fe80::b455:7637:6696:5d4c%11, 172.31.80.1, 192.168.56.1, 192.168.2.1, 192.168.121.1, 192.168.100.200, 192.168.1.140
+Available RAM: 20461020 KB
+Available Project Location Memory: 233202268 KB
+--------------------------------------------------------------------------------
+Exception: Storage provider 'SQLite Database' is not registered.
+
+Stack Trace:    at Neo.ApplicationFramework.Storage.Common.StorageServiceCF.p(String A_0)
+   at Neo.ApplicationFramework.Storage.Common.StorageServiceCF.aa(String A_0, IStorageProviderSettings A_1)
+   at Neo.ApplicationFramework.Storage.Common.StorageServiceCF.ab(String A_0, IStorageProviderSettings A_1)
+   at Neo.ApplicationFramework.Tools.Storage.StorageCacheService.f(String storageName)
+   at Neo.ApplicationFramework.Tools.Storage.StorageCacheService.i(String storageName)
+   at Neo.ApplicationFramework.Tools.Storage.StorageClientToolCF.y()
+   at Neo.ApplicationFramework.Tools.Storage.StorageClientToolCF.Run()
+   at Neo.ApplicationFramework.Tools.ToolBase.g()
+   at Core.Engine.ToolManager.Private.ToolMgrCF.s()
+   at Core.Engine.ToolManager.Private.ToolMgrCF.v()
+   at Core.Engine.ToolManager.Private.ToolMgrCF.aa()
+   at Neo.ApplicationFramework.Common.Runtime.GlobalsBase.Go(String executingAssemblyName, String executablePath, String[] args, String[] designersToCreate, String[] preloadScreenList, Func`1 startupobjectProvider)

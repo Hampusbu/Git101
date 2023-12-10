@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.103.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="Charging.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Charging.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Charging.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Charging.MultiPicture1" TargetProperty="Actions" Source="Tags.ChargeContactor" Event="MouseDown" Action="Toggle Tag" Param="" />
+        <Item Target="Charging.MultiPicture1" TargetProperty="Value" Source="Tags.ChargeContactor" />
+        <Item xsi:type="ActionItem" Target="Charging.MultiPicture" TargetProperty="Actions" Source="Tags.RaiseChargeCollector" Event="MouseDown" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Charging.MultiPicture" TargetProperty="Actions" Source="Tags.LowerChargeCollector" Event="MouseDown" Action="Reset Tag" Param="" />
+        <Item Target="Charging.MultiPicture" TargetProperty="Value" Source="Tags.RaiseChargeCollector" />
+        <Item xsi:type="ActionItem" Target="Charging.MultiPicture2" TargetProperty="Actions" Source="Tags.LowerChargeCollector" Event="MouseDown" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Charging.MultiPicture2" TargetProperty="Actions" Source="Tags.RaiseChargeCollector" Event="MouseDown" Action="Reset Tag" Param="" />
+        <Item Target="Charging.MultiPicture2" TargetProperty="Value" Source="Tags.LowerChargeCollector" />
+        <Item Target="Charging.MultiPicture3" TargetProperty="Value" Source="Tags.ChargeContactor" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Charging.Picture4" TargetProperty="Actions" Source="Charging" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>Charging</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>49</ObjectsCount>
+          <ScreenName>Charging</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Charging.MultiPicture1" TargetProperty="Actions" Source="Tags.ChargeContactor" Event="MouseDown" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Charging.MultiPicture" TargetProperty="Actions" Source="Tags.RaiseChargeCollector" Event="MouseDown" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Charging.MultiPicture" TargetProperty="Actions" Source="Tags.LowerChargeCollector" Event="MouseDown" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Charging.MultiPicture2" TargetProperty="Actions" Source="Tags.LowerChargeCollector" Event="MouseDown" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Charging.MultiPicture2" TargetProperty="Actions" Source="Tags.RaiseChargeCollector" Event="MouseDown" Action="Reset Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="Charging.MultiPicture1" Source="radiooff (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Charging.MultiPicture1" Source="radiooff (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Charging.MultiPicture1" Source="radioon (1)" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Charging.MultiPicture" Source="charge_collector_up" Width="70" Height="70" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Charging.MultiPicture" Source="charge_collector_up" Width="70" Height="70" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Charging.MultiPicture" Source="charge_collector_up_filled" Width="70" Height="70" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Charging.MultiPicture2" Source="charge_collector_down" Width="70" Height="70" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Charging.MultiPicture2" Source="charge_collector_down" Width="70" Height="70" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Charging.MultiPicture2" Source="charge_collector_down_filled" Width="70" Height="70" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Charging.MultiPicture3" Source="radiooff" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Charging.MultiPicture3" Source="radiooff" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Charging.MultiPicture3" Source="radioon" Width="39" Height="39" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Charging.Picture4" Source="charge_icon" Width="74" Height="72" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

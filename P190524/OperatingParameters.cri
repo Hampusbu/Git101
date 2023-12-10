@@ -30,6 +30,7 @@
         <Item Target="OperatingParameters.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="OperatingParameters.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="OperatingParameters.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="OperatingParameters.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
       </Items>
     </Category>
     <Category Name="GlobalDataItem">
@@ -60,11 +61,12 @@
         <Item xsi:type="ActionItem" Target="OperatingParameters.Picture5" TargetProperty="Actions" Source="LiftParameters" Event="MouseDown" Action="Show Screen" Param="Default" />
         <Item xsi:type="ActionItem" Target="OperatingParameters.Picture1" TargetProperty="Actions" Source="RFID" Event="MouseDown" Action="Show Screen" Param="Default" />
         <Item xsi:type="ActionItem" Target="OperatingParameters.Picture6" TargetProperty="Actions" Source="DriveParameters2" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="OperatingParameters.Picture3" TargetProperty="Actions" Source="Charging" Event="MouseDown" Action="Show Screen" Param="Default" />
         <Item xsi:type="ScreenIDItem" ScreenID="2">
           <ScreenName>OperatingParameters</ScreenName>
         </Item>
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>53</ObjectsCount>
+          <ObjectsCount>55</ObjectsCount>
           <ScreenName>OperatingParameters</ScreenName>
         </Item>
       </Items>
@@ -83,6 +85,7 @@
         <Item xsi:type="SymbolItem" Target="OperatingParameters.Picture5" Source="lift_gapac" Width="70" Height="69" IsAnimated="false" />
         <Item xsi:type="SymbolItem" Target="OperatingParameters.Picture1" Source="rfid_pic" Width="76" Height="76" IsAnimated="false" />
         <Item xsi:type="SymbolItem" Target="OperatingParameters.Picture6" Source="drive" Width="70" Height="69" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="OperatingParameters.Picture3" Source="charge_icon" Width="90" Height="88" IsAnimated="false" />
       </Items>
     </Category>
     <Category Name="TextLibrary">

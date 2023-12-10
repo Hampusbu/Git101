@@ -270,6 +270,10 @@
         <Item Target="Tags" TargetProperty="SetTrunkValue" Source="Controller1.DataItem253" />
         <Item Target="Tags" TargetProperty="GetTrunkValue" Source="Controller1.DataItem254" />
         <Item Target="Tags" TargetProperty="SpeedCalibrationOn2" Source="Controller1.DataItem255" />
+        <Item Target="Tags" TargetProperty="SilencehornButton" Source="Controller1.DataItem256" />
+        <Item Target="Tags" TargetProperty="RaiseChargeCollector" Source="Controller1.DataItem257" />
+        <Item Target="Tags" TargetProperty="LowerChargeCollector" Source="Controller1.DataItem258" />
+        <Item Target="Tags" TargetProperty="ChargeContactor" Source="Controller1.DataItem259" />
       </Items>
     </Category>
     <Category Name="IntegratorSwapActiveProjectAction">
@@ -295,7 +299,6 @@
         <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.CurrentOrderMode" />
         <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.SystemTagCommunicationErrors" />
         <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.SystemTagCurrentUser" />
-        <Item Target="Tags.Script.cs" TargetProperty="ValueOn" Source="Tags.DigitalInput30" />
         <Item Target="Tags.Script.cs" TargetProperty="ValueOff" Source="Tags.DigitalInput30" />
         <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.RunningAvg" />
         <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.I_Instant" />

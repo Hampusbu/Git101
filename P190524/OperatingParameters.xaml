@@ -120,5 +120,27 @@
         </nai:ActionList>
       </nai:ActionProperties.Actions>
     </nacs2:Picture>
+    <nacs2:Picture SymbolName="charge_icon" Stretch="True" FontSize="8" Name="m_Picture3" Width="90" Height="88" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="18" Canvas.Left="651" Canvas.Top="65">
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Show Screen">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Show" ObjectName="Charging" EventName="MouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="Neo.ApplicationFramework.Tools.Action.ScreenInstanceObjectPathProvider, ToolsIde, Version=2.31.111.0, Culture=neutral, PublicKeyToken=null" ObjectPath="Default" ExplicitAuditTrail="False">
+                <nata:ActionMethodInfo.ActionParameterInfo>
+                  <nai:ActionParameterInfoList>
+                    <nata:ActionParameterInfo Position="0" Value="{x:Null}" ParameterName="position" ParameterTypeString="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" TagName="" />
+                  </nai:ActionParameterInfoList>
+                </nata:ActionMethodInfo.ActionParameterInfo>
+              </nata:ActionMethodInfo>
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nacs2:Picture>
+    <nac:Label AutoSize="False" WordWrap="False" AutoStretchFont="False" Text="CHARGE CONTROL" BorderBrush="#00FFFFFF" Background="#00FFFFFF" Foreground="#FF26BCA6" FontFamily="Tahoma" FontSize="15" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Padding="3.75,0,3.75,1" Name="m_Text6" Width="162" Height="35" RenderTransformOrigin="0.5,0.5" Opacity="1" Visibility="Visible" Panel.ZIndex="19" Canvas.Left="616" Canvas.Top="144">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
   </nacs:ElementCanvas>
 </nacs:ScreenWindow>

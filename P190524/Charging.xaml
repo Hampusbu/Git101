@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.42.103.0'?>
+<nacs:ScreenWindow Topmost="False" Title="Charging" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Maximized" BorderStyle="ThreeDBorder" ScreenSize="800, 480" StyleName="Default" IsCacheable="True" Background="{x:Null}" Width="800" Height="480" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nacs1="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=ControlsCF" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nacs2="clr-namespace:Neo.ApplicationFramework.Controls.Symbol;assembly=Controls" xmlns:nacd="clr-namespace:Neo.ApplicationFramework.Common.Data;assembly=CommonCF" xmlns:nacd1="clr-namespace:Neo.ApplicationFramework.Common.Dynamics;assembly=CommonCF" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Common;assembly=CommonCF" xmlns:nacc="clr-namespace:Neo.ApplicationFramework.Common.Converters;assembly=Common" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" x:Class="Neo.ApplicationFramework.Generated.Charging">
+  <nacs:ScreenWindow.TemplateScreen>
+    <nacs1:TemplateScreen Name="Background" RenderMode="Background" />
+  </nacs:ScreenWindow.TemplateScreen>
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="800" Height="480" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Display" TextOptions.TextRenderingMode="ClearType" Panel.ZIndex="104">
+    <nac:Label AutoSize="True" WordWrap="False" AutoStretchFont="False" Text="CHARGE CONTROL" Background="#00FFFFFF" Foreground="#FFECECEC" FontFamily="Tahoma" FontSize="24" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="6,0,6,1" Name="m_Text" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="1" Canvas.Left="90" Canvas.Top="11">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:Label AutoSize="False" WordWrap="True" AutoStretchFont="False" Text="RAISE/LOWER CHARGE COLLECTOR:" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="15" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3.75,0,3.75,1" Name="m_Text7" Width="301" Height="40" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="2" Canvas.Left="39" Canvas.Top="115">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:Label AutoSize="False" WordWrap="True" AutoStretchFont="False" Text="ENABLE/DISSABLE CHARGE CONTACTOR: " Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="15" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3.75,0,3.75,1" Name="m_Text6" Width="357" Height="60" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="3" Canvas.Left="39" Canvas.Top="258">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nacs2:Symbol MultiPicture="True" FontSize="8" Name="m_MultiPicture1" Width="40" Height="39" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="4" Canvas.Left="374" Canvas.Top="249">
+      <nacs2:Symbol.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacs2:Symbol.Resources>
+      <nacs2:Symbol.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.ChargeContactor].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nacs2:Symbol.Value>
+      <nacs2:Symbol.SymbolIntervalMapper>
+        <nacd1:SymbolIntervalMapper>
+          <nacd1:SymbolIntervalMapper.Intervals>
+            <nacd1:SymbolIntervalList>
+              <nacd1:SymbolInterval>
+                <nacd1:SymbolInterval.Value>
+                  <nac1:MultiSymbolItem SymbolName="radiooff (1)" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+              <nacd1:SymbolInterval Start="1" End="1">
+                <nacd1:SymbolInterval.Value>
+                  <nac1:MultiSymbolItem SymbolName="radioon (1)" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+            </nacd1:SymbolIntervalList>
+          </nacd1:SymbolIntervalMapper.Intervals>
+        </nacd1:SymbolIntervalMapper>
+      </nacs2:Symbol.SymbolIntervalMapper>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Toggle Tag">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="ToggleTag" ObjectName="Tags.ChargeContactor" EventName="MouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nacs2:Symbol>
+    <nacs2:Symbol MultiPicture="True" Name="m_MultiPicture" Width="71" Height="70" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="5" Canvas.Left="349" Canvas.Top="61">
+      <nacs2:Symbol.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacs2:Symbol.Resources>
+      <nacs2:Symbol.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.RaiseChargeCollector].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nacs2:Symbol.Value>
+      <nacs2:Symbol.SymbolIntervalMapper>
+        <nacd1:SymbolIntervalMapper>
+          <nacd1:SymbolIntervalMapper.Intervals>
+            <nacd1:SymbolIntervalList>
+              <nacd1:SymbolInterval>
+                <nacd1:SymbolInterval.Value>
+                  <nac1:MultiSymbolItem SymbolName="charge_collector_up" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+              <nacd1:SymbolInterval Start="1" End="1">
+                <nacd1:SymbolInterval.Value>
+                  <nac1:MultiSymbolItem SymbolName="charge_collector_up_filled" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+            </nacd1:SymbolIntervalList>
+          </nacd1:SymbolIntervalMapper.Intervals>
+        </nacd1:SymbolIntervalMapper>
+      </nacs2:Symbol.SymbolIntervalMapper>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:MultiAction Name="Multi Action">
+            <nata:MultiAction.Actions>
+              <nai:ActionList>
+                <nata:Action Name="Toggle Tag">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="ToggleTag" ObjectName="Tags.RaiseChargeCollector" EventName="MouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+                <nata:Action Name="Reset Tag">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="ResetTag" ObjectName="Tags.LowerChargeCollector" EventName="MouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+              </nai:ActionList>
+            </nata:MultiAction.Actions>
+            <nata:MultiAction.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="" ObjectName="" EventName="MouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:MultiAction.ActionMethodInfo>
+          </nata:MultiAction>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nacs2:Symbol>
+    <nacs2:Symbol MultiPicture="True" Name="m_MultiPicture2" Width="71" Height="70" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="6" Canvas.Left="349" Canvas.Top="125">
+      <nacs2:Symbol.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacs2:Symbol.Resources>
+      <nacs2:Symbol.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LowerChargeCollector].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nacs2:Symbol.Value>
+      <nacs2:Symbol.SymbolIntervalMapper>
+        <nacd1:SymbolIntervalMapper>
+          <nacd1:SymbolIntervalMapper.Intervals>
+            <nacd1:SymbolIntervalList>
+              <nacd1:SymbolInterval>
+                <nacd1:SymbolInterval.Value>
+                  <nac1:MultiSymbolItem SymbolName="charge_collector_down" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+              <nacd1:SymbolInterval Start="1" End="1">
+                <nacd1:SymbolInterval.Value>
+                  <nac1:MultiSymbolItem SymbolName="charge_collector_down_filled" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+            </nacd1:SymbolIntervalList>
+          </nacd1:SymbolIntervalMapper.Intervals>
+        </nacd1:SymbolIntervalMapper>
+      </nacs2:Symbol.SymbolIntervalMapper>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:MultiAction Name="Multi Action">
+            <nata:MultiAction.Actions>
+              <nai:ActionList>
+                <nata:Action Name="Toggle Tag">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="ToggleTag" ObjectName="Tags.LowerChargeCollector" EventName="MouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+                <nata:Action Name="Reset Tag">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="ResetTag" ObjectName="Tags.RaiseChargeCollector" EventName="MouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+              </nai:ActionList>
+            </nata:MultiAction.Actions>
+            <nata:MultiAction.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="" ObjectName="" EventName="MouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:MultiAction.ActionMethodInfo>
+          </nata:MultiAction>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nacs2:Symbol>
+    <nacs2:Symbol MultiPicture="True" Name="m_MultiPicture3" Width="42" Height="39" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="7" Canvas.Left="422" Canvas.Top="249">
+      <nacs2:Symbol.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacs2:Symbol.Resources>
+      <nacs2:Symbol.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.ChargeContactor].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nacs2:Symbol.Value>
+      <nacs2:Symbol.SymbolIntervalMapper>
+        <nacd1:SymbolIntervalMapper>
+          <nacd1:SymbolIntervalMapper.Intervals>
+            <nacd1:SymbolIntervalList>
+              <nacd1:SymbolInterval>
+                <nacd1:SymbolInterval.Value>
+                  <nac1:MultiSymbolItem SymbolName="radiooff" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+              <nacd1:SymbolInterval Start="1" End="1">
+                <nacd1:SymbolInterval.Value>
+                  <nac1:MultiSymbolItem SymbolName="radioon" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+            </nacd1:SymbolIntervalList>
+          </nacd1:SymbolIntervalMapper.Intervals>
+        </nacd1:SymbolIntervalMapper>
+      </nacs2:Symbol.SymbolIntervalMapper>
+    </nacs2:Symbol>
+    <nacs2:Picture SymbolName="charge_icon" Stretch="True" FontSize="8" Name="m_Picture4" Width="74" Height="72" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="8" Canvas.Left="7" Canvas.Top="-8">
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Show Screen">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Show" ObjectName="Charging" EventName="MouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="Neo.ApplicationFramework.Tools.Action.ScreenInstanceObjectPathProvider, ToolsIde, Version=2.31.111.0, Culture=neutral, PublicKeyToken=null" ObjectPath="Default" ExplicitAuditTrail="False">
+                <nata:ActionMethodInfo.ActionParameterInfo>
+                  <nai:ActionParameterInfoList>
+                    <nata:ActionParameterInfo Position="0" Value="{x:Null}" ParameterName="position" ParameterTypeString="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" TagName="" />
+                  </nai:ActionParameterInfoList>
+                </nata:ActionMethodInfo.ActionParameterInfo>
+              </nata:ActionMethodInfo>
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nacs2:Picture>
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>

@@ -1,0 +1,742 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform>x86</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DD591805-67CA-499A-808F-567848F29C66}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Neo.ApplicationFramework.Generated</RootNamespace>
+    <AssemblyName>P190524</AssemblyName>
+    <!-- Target framework must be same as simulation assemblies are built for. All assemblies for .NET CF 3.5 are pointed out with path explicitly. -->
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PlatformFamilyName>WindowsCE</PlatformFamilyName>
+    <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
+    <WarningLevel>4</WarningLevel>
+    <OutputPath>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\Temp\Output</OutputPath>
+    <CompactFrameworkPath>C:\Program Files (x86)\Microsoft.NET\SDK\CompactFramework\v3.5\WindowsCE</CompactFrameworkPath>
+    <RedirectToCompactFrameworkVersion>CE8</RedirectToCompactFrameworkVersion>
+    <InstallPath>C:\Program Files (x86)\NDC8\Display Application Designer\Bin</InstallPath>
+    <NoStdLib>true</NoStdLib>
+    <DisplayOrHeadless>DISPLAY</DisplayOrHeadless>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <GCServer>False</GCServer>
+    <UseVSHostingProcess>False</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE;CE;V5;$(DisplayOrHeadless)</DefineConstants>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineConstants>TRACE;CE;V5;$(DisplayOrHeadless)</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac">
+      <HintPath>$(CompactFrameworkPath)\mscorlib.dll</HintPath>
+      <SpecificVersion>True</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsCE.Forms, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac">
+      <HintPath>$(CompactFrameworkPath)\Microsoft.WindowsCE.Forms.dll</HintPath>
+      <SpecificVersion>True</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac">
+      <HintPath>$(CompactFrameworkPath)\System.dll</HintPath>
+      <SpecificVersion>True</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac">
+      <HintPath>$(CompactFrameworkPath)\System.Core.dll</HintPath>
+      <SpecificVersion>True</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac">
+      <HintPath>$(CompactFrameworkPath)\System.Data.dll</HintPath>
+      <SpecificVersion>True</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac">
+      <HintPath>$(CompactFrameworkPath)\System.Drawing.dll</HintPath>
+      <SpecificVersion>True</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac">
+      <HintPath>$(CompactFrameworkPath)\System.Windows.Forms.dll</HintPath>
+      <SpecificVersion>True</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac">
+      <HintPath>$(CompactFrameworkPath)\System.Xml.dll</HintPath>
+      <SpecificVersion>True</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac">
+      <HintPath>$(CompactFrameworkPath)\System.Xml.Linq.dll</HintPath>
+      <SpecificVersion>True</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>$(InstallPath)\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsCE.Forms">
+      <HintPath>$(InstallPath)\Microsoft.WindowsCE.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNETCF.Windows.Forms">
+      <HintPath>$(InstallPath)\OpenNETCF.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNETCF.Drawing">
+      <HintPath>$(InstallPath)\OpenNETCF.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNETCF.Configuration">
+      <HintPath>$(InstallPath)\OpenNETCF.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNETCF">
+      <HintPath>$(InstallPath)\OpenNETCF.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureMail">
+      <HintPath>$(InstallPath)\SecureMail.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureMailCF">
+      <HintPath>$(InstallPath)\SecureMailCF.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureMail.Core">
+      <HintPath>$(InstallPath)\SecureMail.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreCF.Api.dll">
+      <HintPath>$(InstallPath)\CoreCF.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreCF.Component.Api.dll">
+      <HintPath>$(InstallPath)\CoreCF.Component.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreCF.Engine.dll">
+      <HintPath>$(InstallPath)\CoreCF.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreCF.Component.Engine.dll">
+      <HintPath>$(InstallPath)\CoreCF.Component.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreCF.Controls.Api.dll">
+      <HintPath>$(InstallPath)\CoreCF.Controls.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="ApplicationFrameworkCF.dll">
+      <HintPath>$(InstallPath)\ApplicationFrameworkCF.dll</HintPath>
+    </Reference>
+    <Reference Include="ExtensionsCF">
+      <HintPath>$(InstallPath)\ExtensionsCF.dll</HintPath>
+    </Reference>
+    <Reference Include="StorageCF">
+      <HintPath>$(InstallPath)\StorageCF.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonDatabaseCF">
+      <HintPath>$(InstallPath)\CommonDatabaseCF.dll</HintPath>
+    </Reference>
+    <Reference Include="ToolsCF">
+      <HintPath>$(InstallPath)\ToolsCF.dll</HintPath>
+    </Reference>
+    <Reference Include="Tools">
+      <HintPath>$(InstallPath)\Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="ControlsCF">
+      <HintPath>$(InstallPath)\ControlsCF.dll</HintPath>
+    </Reference>
+    <Reference Include="Controls">
+      <HintPath>$(InstallPath)\Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonCF">
+      <HintPath>$(InstallPath)\CommonCF.dll</HintPath>
+    </Reference>
+    <Reference Include="InterfacesCF">
+      <HintPath>$(InstallPath)\InterfacesCF.dll</HintPath>
+    </Reference>
+    <Reference Include="SignatureInterfacesCF">
+      <HintPath>$(InstallPath)\SignatureInterfacesCF.dll</HintPath>
+    </Reference>
+    <Reference Include="AttributesCF">
+      <HintPath>$(InstallPath)\AttributesCF.dll</HintPath>
+    </Reference>
+    <Reference Include="ResourcesCF">
+      <HintPath>$(InstallPath)\ResourcesCF.dll</HintPath>
+    </Reference>
+    <Reference Include="DataSourceInterop">
+      <HintPath>$(InstallPath)\DataSourceInterop.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="$(InstallPath)\Configurations\log4net.config">
+      <Link>log4net.config</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="$(InstallPath)\Configurations\hourglass.bmp">
+      <Link>hourglass.bmp</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Data.SQLite">
+      <HintPath>C:\Program Files (x86)\NDC8\Display Application Designer\Bin\System.Data.SQLite.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\AGVStats.Script.cs">
+      <Link>AGVStats.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\AGVStats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\AlarmHandler.Script.cs">
+      <Link>AlarmHandler.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\AlarmHandler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\Alarms.Script.cs">
+      <Link>Alarms.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Alarms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\AlarmServer.Script.cs">
+      <Link>AlarmServer.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\AlarmServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\Background.Script.cs">
+      <Link>Background.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Background.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\AGVStats.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\AlarmHandler.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Alarms.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\AlarmServer.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Assisted_Insert.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Background.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\CancelOrderConfirmation.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Charging.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\CommandFromPC.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\ConfirmationScreen.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\ConnectionLost.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Controller1.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Diagnostics.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\DriveDiagnostics1.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\DriveDiagnostics2.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\DriveParameters1.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\DriveParameters2.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\ErrorWindow.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Expressions.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Home.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\HomeScreenInfo.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\HTML_Viewer.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\InfoBox.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\InputScreen1.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\InputScreen2.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\InputScreen3.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\IOHelpScreen.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\IO_Explorer.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Layout.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\LicenseRootComponent.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\LiDARParameters.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\LiftDiagnostics.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\LiftParameters.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\LocalOrder.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\MessageBox.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\MultipleLanguages.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Navbar.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\OperatingParameters.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\OutputExplorer1.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\P190524.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\PariaMode.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\PowerDiagnostics.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\ProjectConfiguration.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\ProjectImages.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\RFID.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\RFIDDiagnostics.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Scheduler.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\ScreenSaver.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\ScreenSaverTimer.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\ScreenSettings.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Security.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\SideShiftParameters.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\SntpClientRootComponent.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\StartUpValues.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\SteerDiagnostics1.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\SteerDiagnostics2.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\SteerDiagnostics3.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\SteerDiagnostics4.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\SteeringParameters1.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\SteeringParameters2.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\SteeringParameters3.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\SteeringParameters4.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Tags.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\TextLibrary.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\UpdateMessage.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\UpdateStrings.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\VersionInformation.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\WebServerRootComponent.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\WheelVisuals.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\wifi.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Window500x300.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Window640x420.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Window640x480.cs" />
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\CommandFromPC.Script.cs">
+      <Link>CommandFromPC.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\CommandFromPC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\ConfirmationScreen.Script.cs">
+      <Link>ConfirmationScreen.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\ConfirmationScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\ConnectionLost.Script.cs">
+      <Link>ConnectionLost.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\ConnectionLost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\Diagnostics.Script.cs">
+      <Link>Diagnostics.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Diagnostics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\DriveDiagnostics1.Script.cs">
+      <Link>DriveDiagnostics1.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\DriveDiagnostics1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\DriveDiagnostics2.Script.cs">
+      <Link>DriveDiagnostics2.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\DriveDiagnostics2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\DriveParameters1.Script.cs">
+      <Link>DriveParameters1.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\DriveParameters1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\DriveParameters2.Script.cs">
+      <Link>DriveParameters2.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\DriveParameters2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\ErrorWindow.Script.cs">
+      <Link>ErrorWindow.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\ErrorWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\Home.Script.cs">
+      <Link>Home.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\HomeScreenInfo.Script.cs">
+      <Link>HomeScreenInfo.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\HomeScreenInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\HTML_Viewer.Script.cs">
+      <Link>HTML_Viewer.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\HTML_Viewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\InfoBox.Script.cs">
+      <Link>InfoBox.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\InfoBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\InputScreen1.Script.cs">
+      <Link>InputScreen1.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\InputScreen1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\InputScreen2.Script.cs">
+      <Link>InputScreen2.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\InputScreen2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\IOHelpScreen.Script.cs">
+      <Link>IOHelpScreen.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\IOHelpScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\IO_Explorer.Script.cs">
+      <Link>IO_Explorer.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\IO_Explorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\Layout.Script.cs">
+      <Link>Layout.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Layout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\LiDARParameters.Script.cs">
+      <Link>LiDARParameters.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\LiDARParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\LiftDiagnostics.Script.cs">
+      <Link>LiftDiagnostics.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\LiftDiagnostics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\LiftParameters.Script.cs">
+      <Link>LiftParameters.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\LiftParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\LocalOrder.Script.cs">
+      <Link>LocalOrder.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\LocalOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\MessageBox.Script.cs">
+      <Link>MessageBox.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\MessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\Navbar.Script.cs">
+      <Link>Navbar.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Navbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\OperatingParameters.Script.cs">
+      <Link>OperatingParameters.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\OperatingParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\OutputExplorer1.Script.cs">
+      <Link>OutputExplorer1.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\OutputExplorer1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\PariaMode.Script.cs">
+      <Link>PariaMode.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\PariaMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\PowerDiagnostics.Script.cs">
+      <Link>PowerDiagnostics.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\PowerDiagnostics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\RFID.Script.cs">
+      <Link>RFID.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\RFID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\RFIDDiagnostics.Script.cs">
+      <Link>RFIDDiagnostics.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\RFIDDiagnostics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\Scheduler.Script.cs">
+      <Link>Scheduler.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Scheduler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\ScreenSaver.Script.cs">
+      <Link>ScreenSaver.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\ScreenSaver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\ScreenSaverTimer.Script.cs">
+      <Link>ScreenSaverTimer.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\ScreenSaverTimer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\ScreenSettings.Script.cs">
+      <Link>ScreenSettings.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\ScreenSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\Security.Script.cs">
+      <Link>Security.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Security.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\SideShiftParameters.Script.cs">
+      <Link>SideShiftParameters.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\SideShiftParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\StartUpValues.Script.cs">
+      <Link>StartUpValues.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\StartUpValues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\SteerDiagnostics1.Script.cs">
+      <Link>SteerDiagnostics1.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\SteerDiagnostics1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\SteerDiagnostics2.Script.cs">
+      <Link>SteerDiagnostics2.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\SteerDiagnostics2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\SteeringParameters1.Script.cs">
+      <Link>SteeringParameters1.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\SteeringParameters1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\SteeringParameters3.Script.cs">
+      <Link>SteeringParameters3.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\SteeringParameters3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\SteeringParameters4.Script.cs">
+      <Link>SteeringParameters4.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\SteeringParameters4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\Tags.Script.cs">
+      <Link>Tags.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Tags.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\UpdateMessage.Script.cs">
+      <Link>UpdateMessage.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\UpdateMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\UpdateStrings.Script.cs">
+      <Link>UpdateStrings.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\UpdateStrings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\VersionInformation.Script.cs">
+      <Link>VersionInformation.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\VersionInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\WheelVisuals.Script.cs">
+      <Link>WheelVisuals.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\WheelVisuals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\wifi.Script.cs">
+      <Link>wifi.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\wifi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\Window500x300.Script.cs">
+      <Link>Window500x300.Script.cs</Link>
+      <DependentUpon>C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Window500x300.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="C:\Program Files (x86)\Common Files\Beijers Shared\OPC Drivers\Modicon_Modbus_RTU_ASCII_Pre2ce8.dll.ce8arm">
+      <Link>Modicon_Modbus_RTU_ASCII_Pre2ce8.dll.ce8arm</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\BeInProcessNeo.dll">
+      <Link>BeInProcessNeo.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\Common.DLL">
+      <Link>Common.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\CommonCF.DLL">
+      <Link>CommonCF.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\CommonIde.DLL">
+      <Link>CommonIde.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\Controls.DLL">
+      <Link>Controls.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\ControlsCF.DLL">
+      <Link>ControlsCF.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\Core.Utilities.dll">
+      <Link>Core.Utilities.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\CoreCF.Utilities.dll">
+      <Link>CoreCF.Utilities.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\Extensions\IntegratorSwapActiveProject.DLL">
+      <Link>IntegratorSwapActiveProject.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\Extensions\IntegratorSwapActiveProjectCF.DLL">
+      <Link>IntegratorSwapActiveProjectCF.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\Extensions\StorageDeviceDetection.dll">
+      <Link>StorageDeviceDetection.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\Extensions\StorageDeviceDetectionCF.dll">
+      <Link>StorageDeviceDetectionCF.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\graphicspc.dll">
+      <Link>graphicspc.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\Ionic.Zip.CF.dll">
+      <Link>Ionic.Zip.CF.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\Ionic.Zip.dll">
+      <Link>Ionic.Zip.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\KeyboardLayouts\Numeric.kbl">
+      <Link>Numeric.kbl</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\KeyboardLayouts\NumericHex.kbl">
+      <Link>NumericHex.kbl</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\KeyboardLayouts\NumericIP.kbl">
+      <Link>NumericIP.kbl</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\KeyboardLayouts\System Default.kbl">
+      <Link>System Default.kbl</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\KeyboardLayouts\US.kbl">
+      <Link>US.kbl</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\OnScreenKeyboardPC.exe">
+      <Link>OnScreenKeyboardPC.exe</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\OPCDAWrapper.dll">
+      <Link>OPCDAWrapper.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\PropertyBag.dll">
+      <Link>PropertyBag.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\SqlCeDatabaseCF.DLL">
+      <Link>SqlCeDatabaseCF.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\SQLite.Interop.dll">
+      <Link>SQLite.Interop.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\SQLiteDatabase.DLL">
+      <Link>SQLiteDatabase.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\SQLiteDatabaseCF.dll">
+      <Link>SQLiteDatabaseCF.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\SQLiteDatabaseCommonCF.dll">
+      <Link>SQLiteDatabaseCommonCF.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\Tools.DLL">
+      <Link>Tools.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\ToolsCF.DLL">
+      <Link>ToolsCF.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\ToolsIde.DLL">
+      <Link>ToolsIde.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\Windows CE8\ArmV7\graphicsce.dll">
+      <Link>graphicsce.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\Windows CE8\ArmV7\InProcessCE.dll">
+      <Link>InProcessCE.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\Windows CE8\ArmV7\OnScreenKeyboardCE.exe">
+      <Link>OnScreenKeyboardCE.exe</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\Windows CE8\ArmV7\OPCDAWrapperCe.dll">
+      <Link>OPCDAWrapperCe.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\Windows CE8\ArmV7\PdfWrapperCE.dll">
+      <Link>PdfWrapperCE.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\Windows CE8\ArmV7\PropertyBagCE.dll">
+      <Link>PropertyBagCE.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\Windows CE8\ArmV7\SQLite.Interop.099.dll">
+      <Link>SQLite.Interop.099.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\NDC8\Display Application Designer\Bin\Windows CE8\ArmV7\System.Data.SQLite.dll">
+      <Link>System.Data.SQLite.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\hampu\AppData\Local\Temp\fb9bcac8-b4b2-4588-a993-ed2b7bb72767\P190524.exe.manifest">
+      <Link>P190524.exe.manifest</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\hampu\AppData\Local\Temp\Modules.cfgtool">
+      <Link>Modules.cfgtool</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\AlarmSettings.xml">
+      <Link>AlarmSettings.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\network.bin">
+      <Link>network.bin</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\RenderableControls.zip">
+      <Link>RenderableControls.zip</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\BuildFiles\Symbols.zip">
+      <Link>Symbols.zip</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\ComRegistration.config">
+      <Link>ComRegistration.config</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\Controller1.cfg">
+      <Link>Controller1.cfg</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\ControllerRunTimeSettings.xml">
+      <Link>ControllerRunTimeSettings.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\Controllers.xml">
+      <Link>Controllers.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\Features.xml">
+      <Link>Features.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\Printer1.xml">
+      <Link>Printer1.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\Project Files\OPTX2-AGV.bmp">
+      <Link>Project Files\OPTX2-AGV.bmp</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\Project.xml">
+      <Link>Project.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\ScreenIDs.xml">
+      <Link>ScreenIDs.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\Security.xml">
+      <Link>Security.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\Temp\PlatformFactory.xml">
+      <Link>PlatformFactory.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\hampu\OneDrive\Skrivbord\Kodak changes on site\P190524\TrendDataConfig.xml">
+      <Link>TrendDataConfig.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\WINDOWS\FONTS\TAHOMA.TTF">
+      <Link>TAHOMA.TTF</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- Overriding this attribute so that higher target framework for simulation does not collide with .NET CF 3.5.  -->
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>0114;0108</NoWarn>
+  </PropertyGroup>
+  <Target Name="BeforeBuild">
+    <Copy SourceFiles="$(InstallPath)\Configurations\AppCF.Config" DestinationFiles="$(ProjectDir)\App.Config" />
+  </Target>
+</Project>

@@ -36,12 +36,13 @@
         <Item Target="Diagnostics.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Diagnostics.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
         <Item Target="Diagnostics.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Diagnostics.Text12" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
       </Items>
     </Category>
     <Category Name="GlobalDataItem">
       <Items>
-        <Item xsi:type="ActionItem" Target="Diagnostics.MultiPicture" TargetProperty="Actions" Source="Tags.DigitalOutput20" Event="MouseDown" Action="Toggle Tag" Param="" />
-        <Item Target="Diagnostics.MultiPicture" TargetProperty="Value" Source="Tags.DigitalOutput20" />
+        <Item xsi:type="ActionItem" Target="Diagnostics.MultiPicture" TargetProperty="Actions" Source="Tags.SilencehornButton" Event="MouseDown" Action="Toggle Tag" Param="" />
+        <Item Target="Diagnostics.MultiPicture" TargetProperty="Value" Source="Tags.SilencehornButton" />
       </Items>
     </Category>
     <Category Name="IntegratorSwapActiveProjectAction">
@@ -73,11 +74,12 @@
         <Item xsi:type="ActionItem" Target="Diagnostics.Picture8" TargetProperty="Actions" Source="PowerDiagnostics" Event="MouseDown" Action="Show Screen" Param="Default" />
         <Item xsi:type="ActionItem" Target="Diagnostics.Picture6" TargetProperty="Actions" Source="DriveDiagnostics2" Event="MouseDown" Action="Show Screen" Param="Default" />
         <Item xsi:type="ActionItem" Target="Diagnostics.Picture7" TargetProperty="Actions" Source="RFIDDiagnostics" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Diagnostics.Picture4" TargetProperty="Actions" Source="ChargeDiagnostic" Event="MouseDown" Action="Show Screen" Param="Default" />
         <Item xsi:type="ScreenIDItem" ScreenID="3">
           <ScreenName>Diagnostics</ScreenName>
         </Item>
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>63</ObjectsCount>
+          <ObjectsCount>65</ObjectsCount>
           <ScreenName>Diagnostics</ScreenName>
         </Item>
       </Items>
@@ -87,7 +89,7 @@
     </Category>
     <Category Name="StructuredTag">
       <Items>
-        <Item xsi:type="ActionItem" Target="Diagnostics.MultiPicture" TargetProperty="Actions" Source="Tags.DigitalOutput20" Event="MouseDown" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Diagnostics.MultiPicture" TargetProperty="Actions" Source="Tags.SilencehornButton" Event="MouseDown" Action="Toggle Tag" Param="" />
       </Items>
     </Category>
     <Category Name="Symbol">
@@ -104,6 +106,7 @@
         <Item xsi:type="SymbolItem" Target="Diagnostics.MultiPicture" Source="silencehorn_2" Width="100" Height="100" IsAnimated="false" />
         <Item xsi:type="SymbolItem" Target="Diagnostics.MultiPicture" Source="silencehorn_2" Width="100" Height="100" IsAnimated="false" />
         <Item xsi:type="SymbolItem" Target="Diagnostics.MultiPicture" Source="silencehorn" Width="100" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Diagnostics.Picture4" Source="charge_icon" Width="90" Height="88" IsAnimated="false" />
       </Items>
     </Category>
     <Category Name="TextLibrary">

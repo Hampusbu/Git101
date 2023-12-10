@@ -3285,6 +3285,46 @@
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="SILENCE HORN" />
         </ReferenceValue>
       </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.42.103.0, Culture=neutral, PublicKeyToken=null" DesignerName="Charging" ObjectName="Text" PropertyName="Text" IsActive="True" ProjectGuid="fb9bcac8-b4b2-4588-a993-ed2b7bb72767" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="CHARGE CONTROL" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.42.103.0, Culture=neutral, PublicKeyToken=null" DesignerName="Charging" ObjectName="Text7" PropertyName="Text" IsActive="True" ProjectGuid="fb9bcac8-b4b2-4588-a993-ed2b7bb72767" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="RAISE/LOWER CHARGE COLLECTOR:" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.42.103.0, Culture=neutral, PublicKeyToken=null" DesignerName="Charging" ObjectName="Text6" PropertyName="Text" IsActive="True" ProjectGuid="fb9bcac8-b4b2-4588-a993-ed2b7bb72767" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="ENABLE/DISSABLE CHARGE CONTACTOR: " />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.42.103.0, Culture=neutral, PublicKeyToken=null" DesignerName="OperatingParameters" ObjectName="Text6" PropertyName="Text" IsActive="True" ProjectGuid="fb9bcac8-b4b2-4588-a993-ed2b7bb72767" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="CHARGE CONTROL" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.42.103.0, Culture=neutral, PublicKeyToken=null" DesignerName="Diagnostics" ObjectName="Text12" PropertyName="Text" IsActive="True" ProjectGuid="fb9bcac8-b4b2-4588-a993-ed2b7bb72767" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="CHARGE CONTROL" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.42.103.0, Culture=neutral, PublicKeyToken=null" DesignerName="ChargeDiagnostic" ObjectName="Text7" PropertyName="Text" IsActive="True" ProjectGuid="fb9bcac8-b4b2-4588-a993-ed2b7bb72767" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="RAISE/LOWER CHARGE COLLECTOR:" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.42.103.0, Culture=neutral, PublicKeyToken=null" DesignerName="ChargeDiagnostic" ObjectName="Text6" PropertyName="Text" IsActive="True" ProjectGuid="fb9bcac8-b4b2-4588-a993-ed2b7bb72767" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="ENABLE/DISSABLE CHARGE CONTACTOR: " />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.42.103.0, Culture=neutral, PublicKeyToken=null" DesignerName="ChargeDiagnostic" ObjectName="Text" PropertyName="Text" IsActive="True" ProjectGuid="fb9bcac8-b4b2-4588-a993-ed2b7bb72767" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="CHARGE CONTROL " />
+        </ReferenceValue>
+      </Object>
     </ResourceItems>
   </Object>
 </NeoItem>

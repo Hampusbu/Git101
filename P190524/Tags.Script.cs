@@ -135,13 +135,11 @@ namespace Neo.ApplicationFramework.Generated
 		}
 		
 		
-		
-		void DigitalInput30_ValueOn(System.Object sender, System.EventArgs e)
-		{
-			Globals.RFID.Show();
-			
-								
-		}
+	
+		//void DigitalInput30_ValueOn(System.Object sender, System.EventArgs e)
+		//{
+		//	Globals.RFID.Show();							
+		//}
 		
 		void DigitalInput30_ValueOff(System.Object sender, System.EventArgs e)
 		{

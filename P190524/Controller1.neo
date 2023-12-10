@@ -261,6 +261,10 @@
       <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.42.103.0, Culture=neutral, PublicKeyToken=null" ItemID="40202" DataType="DT_INTEGER2" d1p1:Site.Name="DataItem253" ProjectGuid="fb9bcac8-b4b2-4588-a993-ed2b7bb72767" />
       <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.42.103.0, Culture=neutral, PublicKeyToken=null" ItemID="00130" DataType="DT_BIT" d1p1:Site.Name="DataItem254" ProjectGuid="fb9bcac8-b4b2-4588-a993-ed2b7bb72767" />
       <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.42.103.0, Culture=neutral, PublicKeyToken=null" ItemID="00131" DataType="DT_BIT" d1p1:Site.Name="DataItem255" ProjectGuid="fb9bcac8-b4b2-4588-a993-ed2b7bb72767" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.42.103.0, Culture=neutral, PublicKeyToken=null" ItemID="00132" DataType="DT_BIT" d1p1:Site.Name="DataItem256" ProjectGuid="fb9bcac8-b4b2-4588-a993-ed2b7bb72767" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.42.103.0, Culture=neutral, PublicKeyToken=null" ItemID="00133" DataType="DT_BIT" d1p1:Site.Name="DataItem257" ProjectGuid="fb9bcac8-b4b2-4588-a993-ed2b7bb72767" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.42.103.0, Culture=neutral, PublicKeyToken=null" ItemID="00134" DataType="DT_BIT" d1p1:Site.Name="DataItem258" ProjectGuid="fb9bcac8-b4b2-4588-a993-ed2b7bb72767" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.42.103.0, Culture=neutral, PublicKeyToken=null" ItemID="00135" DataType="DT_BIT" d1p1:Site.Name="DataItem259" ProjectGuid="fb9bcac8-b4b2-4588-a993-ed2b7bb72767" />
     </DataItems>
   </Object>
 </NeoItem>
